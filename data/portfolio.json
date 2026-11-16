@@ -1,0 +1,30 @@
+{
+  "owner": "Demo investor (synthetic)",
+  "note": "Mock portfolio for the FINN prototype. Weights are % of portfolio value.",
+  "holdings": [
+    { "symbol": "HDFCBANK",   "weight": 9, "theme": ["private banking"] },
+    { "symbol": "RELIANCE",   "weight": 8, "theme": ["energy", "telecom", "retail"] },
+    { "symbol": "LT",         "weight": 6, "theme": ["infrastructure", "capital goods"] },
+    { "symbol": "ITC",        "weight": 6, "theme": ["fmcg", "consumer staples"] },
+    { "symbol": "TITAN",      "weight": 6, "theme": ["consumer discretionary", "jewellery"] },
+    { "symbol": "TVSMOTOR",   "weight": 6, "theme": ["autos", "two-wheelers", "ev"] },
+    { "symbol": "PERSISTENT", "weight": 6, "theme": ["it services"] },
+    { "symbol": "MUTHOOTFIN", "weight": 6, "theme": ["gold loans", "nbfc", "rural lending"] },
+    { "symbol": "ASIANPAINT", "weight": 5, "theme": ["consumer discretionary", "paints"] },
+    { "symbol": "SUNPHARMA",  "weight": 5, "theme": ["pharma", "specialty generics"] },
+    { "symbol": "POLYCAB",    "weight": 5, "theme": ["cables", "electricals"] },
+    { "symbol": "CGPOWER",    "weight": 5, "theme": ["electrical equipment", "semiconductors"] },
+    { "symbol": "NAVINFLUOR", "weight": 5, "theme": ["specialty chemicals", "fluorochemicals"] },
+    { "symbol": "KAYNES",     "weight": 5, "theme": ["electronics manufacturing", "semiconductors"] },
+    { "symbol": "AUBANK",     "weight": 4, "theme": ["small finance bank", "rural lending"] },
+    { "symbol": "SRF",        "weight": 4, "theme": ["specialty chemicals", "fluorochemicals"] },
+    { "symbol": "DIXON",      "weight": 4, "theme": ["electronics manufacturing"] },
+    { "symbol": "CREDITACC",  "weight": 5, "theme": ["microfinance", "rural lending"] }
+  ],
+  "research": [
+    { "symbol": "AARTIIND", "why": "Specialty chemicals; years of EBITDA guidance to hold management to." },
+    { "symbol": "PIIND",    "why": "Agrochem CSM exporter; growth guidance reset is a live narrative-vs-numbers test." },
+    { "symbol": "JUBLFOOD", "why": "Consumer QSR; store-expansion and margin promises vs delivery." },
+    { "symbol": "KAYNES",   "why": "Portfolio name with fresh OSAT JV news; aggressive growth guidance." }
+  ]
+}

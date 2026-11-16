@@ -1,0 +1,112 @@
+[
+  {
+    "month": "Aug 2025",
+    "metric": "revenue_abs",
+    "target": { "low": 4500, "high": null, "unit": "cr" },
+    "horizon": "FY26",
+    "quote": "So we maintain our what I call the guidance of INR4,500 crores plus on a consol basis.",
+    "gist": "FY26 consolidated revenue ₹4,500 cr+ maintained",
+    "speaker": "Jairam Sampath",
+    "page": 6
+  },
+  {
+    "month": "Aug 2025",
+    "metric": "ebitda_margin",
+    "target": { "low": 15.6, "high": 15.6, "unit": "%" },
+    "horizon": "FY26",
+    "quote": "We are saying that looking at the first quarter, the EBITDA might exceed the guidance of 15.6%.",
+    "gist": "FY26 EBITDA margin guidance 15.6%, may exceed",
+    "speaker": "Jairam Sampath",
+    "page": 13
+  },
+  {
+    "month": "Nov 2025",
+    "metric": "revenue_growth",
+    "target": { "low": 50, "high": 50, "unit": "%" },
+    "horizon": null,
+    "quote": "we expect automotive to grow at the rate of growth of our company's growth rate, which will be anywhere around 50% plus/minus, you can take.",
+    "gist": "Company growth rate ~50% (automotive to match)",
+    "speaker": "Jairam Sampath",
+    "page": 13
+  },
+  {
+    "month": "Feb 2026",
+    "metric": "revenue_abs",
+    "target": { "low": 4000, "high": null, "unit": "cr" },
+    "horizon": "FY26",
+    "quote": "including the last quarter for FY '26, we'll cross about INR4,000 crores minimum and mainly driven by EMS revenues.",
+    "gist": "FY26 revenue to cross ₹4,000 cr minimum",
+    "speaker": "Jairam Sampath",
+    "page": 8
+  },
+  {
+    "month": "Feb 2026",
+    "metric": "other",
+    "target": { "low": 300, "high": 300, "unit": "cr" },
+    "horizon": "FY26",
+    "quote": "And maybe about INR300 crores will be metering revenues out of this.",
+    "gist": "FY26 metering revenue ~₹300 cr",
+    "speaker": "Jairam Sampath",
+    "page": 8
+  },
+  {
+    "month": "Feb 2026",
+    "metric": "capex",
+    "target": { "low": 1700, "high": 1800, "unit": "cr" },
+    "horizon": null,
+    "quote": "the OSAT business, the Phase 1 will get completed that is about INR1,700 crores, INR1,800 crores of capex.",
+    "gist": "OSAT Phase 1 capex ~₹1,700–1,800 cr",
+    "speaker": "Jairam Sampath",
+    "page": 14
+  },
+  {
+    "month": "May 2026",
+    "metric": "other",
+    "target": { "low": 2, "high": 2, "unit": "x" },
+    "horizon": "FY27",
+    "quote": "So we are committing at doubling the growth of market growth",
+    "gist": "FY27 growth committed at 2x EMS market growth",
+    "speaker": "N. Muthukumar",
+    "page": 11
+  },
+  {
+    "month": "May 2026",
+    "metric": "other",
+    "target": { "low": 30, "high": 30, "unit": "%" },
+    "horizon": null,
+    "quote": "We are also submitting 30% of our revenue in the years to come will come from the new products",
+    "gist": "30% of future revenue from new products",
+    "speaker": "N. Muthukumar",
+    "page": 11
+  },
+  {
+    "month": "Aug 2026",
+    "metric": "other",
+    "target": { "low": 2, "high": 2, "unit": "x" },
+    "horizon": "FY27",
+    "quote": "we are quite confident of achieving the twice the market growth.",
+    "gist": "FY27 growth at 2x market growth reaffirmed",
+    "speaker": "N. Muthukumar",
+    "page": 14
+  },
+  {
+    "month": "Aug 2026",
+    "metric": "other",
+    "target": { "low": 450, "high": 500, "unit": "cr" },
+    "horizon": "FY27",
+    "quote": "INR450 to INR500 crores, which is what we are targeting at this point in time, we are on the target.",
+    "gist": "FY27 OSAT + PCB revenue ₹450–500 cr",
+    "speaker": "N. Muthukumar",
+    "page": 14
+  },
+  {
+    "month": "Aug 2026",
+    "metric": "capex",
+    "target": { "low": 850, "high": 850, "unit": "cr" },
+    "horizon": "FY27",
+    "quote": "this capex for this year is about INR300 crores for OSAT, INR300 crores for PCB, and about INR250 crores for EMS business.",
+    "gist": "FY27 capex ~₹850 cr: OSAT 300, PCB 300, EMS 250",
+    "speaker": "N. Muthukumar",
+    "page": 16
+  }
+]

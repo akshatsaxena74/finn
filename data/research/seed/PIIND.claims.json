@@ -1,0 +1,62 @@
+[
+  {
+    "month": "Aug 2025",
+    "metric": "other",
+    "target": { "low": 2, "high": 3, "unit": "x" },
+    "horizon": "FY30",
+    "quote": "we are looking to at least 2 to 3 times the revenue size in the next 3 to 4 years.",
+    "gist": "Revenue size (business unspecified) to grow 2–3x in 3–4 years",
+    "speaker": "Mayank Singhal",
+    "page": 13
+  },
+  {
+    "month": "Nov 2025",
+    "metric": "other",
+    "target": { "low": 50, "high": 52, "unit": "%" },
+    "horizon": null,
+    "quote": "On a longer-term basis, as we have guided in the past, 50% to 52% gross margin is what we believe is a sustainable level.",
+    "gist": "Long-term gross margin guidance 50–52%",
+    "speaker": "Rajnish Sarna",
+    "page": 16
+  },
+  {
+    "month": "Feb 2026",
+    "metric": "other",
+    "target": { "low": 50, "high": 52, "unit": "%" },
+    "horizon": null,
+    "quote": "maintain our long-term GP margin guidance between 50% to 52%, and we continue to move with that.",
+    "gist": "Long-term gross margin guidance 50–52% maintained",
+    "speaker": "Mayank Singhal",
+    "page": 7
+  },
+  {
+    "month": "May 2026",
+    "metric": "capex",
+    "target": { "low": 700, "high": 800, "unit": "cr" },
+    "horizon": "FY27",
+    "quote": "we should have INR 700 to INR 800 crore of capex both at the manufacturing level, some of the new launches which we are going to be having",
+    "gist": "FY27 capex ₹700–800 cr",
+    "speaker": "Sanjay Agarwal",
+    "page": 12
+  },
+  {
+    "month": "May 2026",
+    "metric": "other",
+    "target": { "low": 500, "high": 600, "unit": "cr" },
+    "horizon": "FY29",
+    "quote": "we are looking to target to get this to the next two to three years, a INR 500-INR 600 crore business",
+    "gist": "New segment (likely pharma) to ₹500–600 cr revenue in 2–3 years",
+    "speaker": "Mayank Singhal",
+    "page": 13
+  },
+  {
+    "month": "Nov 2026",
+    "metric": "other",
+    "target": { "low": 50, "high": 52, "unit": "%" },
+    "horizon": null,
+    "quote": "But our guidance has been between 50%-52% odd margin there.",
+    "gist": "Gross margin guidance 50–52% reiterated",
+    "speaker": "Mayank Singhal",
+    "page": 19
+  }
+]

@@ -1,0 +1,152 @@
+[
+  {
+    "month": "Aug 2025",
+    "metric": "stores",
+    "target": { "low": 1000, "high": 1000, "unit": "units" },
+    "horizon": "FY29",
+    "quote": "we believe there's potential in the country to open the next 1,000 stores in the next 3 years",
+    "gist": "Plan to open next 1,000 stores over 3 years",
+    "speaker": "Suman Hegde",
+    "page": 19
+  },
+  {
+    "month": "Nov 2025",
+    "metric": "other",
+    "target": { "low": 5, "high": 7, "unit": "%" },
+    "horizon": null,
+    "quote": "Now, roughly 5% to 7% should come from like-for-like growth",
+    "gist": "Growth algorithm: 5–7% from like-for-like growth",
+    "speaker": "Sameer Khetarpal",
+    "page": 6
+  },
+  {
+    "month": "Nov 2025",
+    "metric": "ebitda_margin",
+    "target": { "low": 200, "high": 200, "unit": "bps" },
+    "horizon": null,
+    "quote": "our guidance that we have given or that what Suman gave during Investor Day that we should improve 200 basis point",
+    "gist": "EBITDA margin to improve 200 bps (Investor Day guidance)",
+    "speaker": "Sameer Khetarpal",
+    "page": 8
+  },
+  {
+    "month": "Nov 2025",
+    "metric": "stores",
+    "target": { "low": 1000, "high": 1000, "unit": "units" },
+    "horizon": "FY29",
+    "quote": "we can open nearly like 1,000 stores in the next three years",
+    "gist": "Nearly 1,000 new stores in next three years",
+    "speaker": "Sameer Khetarpal",
+    "page": 10
+  },
+  {
+    "month": "Feb 2026",
+    "metric": "other",
+    "target": { "low": 5, "high": 7, "unit": "%" },
+    "horizon": null,
+    "quote": "Domino's should grow at 5% to 7% like-for-like growth.",
+    "gist": "Domino's like-for-like growth 5–7%",
+    "speaker": "Sameer Khetarpal",
+    "page": 6
+  },
+  {
+    "month": "Feb 2026",
+    "metric": "revenue_growth",
+    "target": { "low": 15, "high": 15, "unit": "%" },
+    "horizon": null,
+    "quote": "Overall top line should grow for standalone around 15%",
+    "gist": "Standalone revenue growth ~15%",
+    "speaker": "Sameer Khetarpal",
+    "page": 6
+  },
+  {
+    "month": "Feb 2026",
+    "metric": "other",
+    "target": { "low": 15, "high": 15, "unit": "%" },
+    "horizon": null,
+    "quote": "we should get closer to 15% pre- Ind AS margin",
+    "gist": "Standalone pre-Ind AS margin moving closer to 15%",
+    "speaker": "Sameer Khetarpal",
+    "page": 6
+  },
+  {
+    "month": "Feb 2026",
+    "metric": "stores",
+    "target": { "low": 1000, "high": 1000, "unit": "units" },
+    "horizon": "FY29",
+    "quote": "we want to open 1,000 stores in the next 3 years, right, which mean that the store capex will kick in.",
+    "gist": "Open 1,000 stores in next 3 years",
+    "speaker": "Suman Hegde",
+    "page": 10
+  },
+  {
+    "month": "Feb 2026",
+    "metric": "other",
+    "target": { "low": 1, "high": 1.5, "unit": "%" },
+    "horizon": null,
+    "quote": "I think Popeyes, Amit, should add like 1%, 1.5% to growth, right?",
+    "gist": "Popeyes to add 1–1.5% to overall growth",
+    "speaker": "Sameer Khetarpal",
+    "page": 17
+  },
+  {
+    "month": "Feb 2026",
+    "metric": "ebitda_margin",
+    "target": { "low": 200, "high": 200, "unit": "bps" },
+    "horizon": null,
+    "quote": "our guidance has been consistent saying that above FY '24 margins, we want to improve by about 200 bps at an EBITDA level as a company.",
+    "gist": "EBITDA margin +200 bps over FY24 level",
+    "speaker": "Suman Hegde",
+    "page": 19
+  },
+  {
+    "month": "Feb 2026",
+    "metric": "other",
+    "target": { "low": 1000, "high": 1000, "unit": "cr" },
+    "horizon": null,
+    "quote": "I can only see that this to be a 250 store INR1,000 crores business in medium term and with very high profitability.",
+    "gist": "Popeyes: 250 stores, ₹1,000 cr business in medium term",
+    "speaker": "Sameer Khetarpal",
+    "page": 20
+  },
+  {
+    "month": "May 2026",
+    "metric": "ebitda_margin",
+    "target": { "low": 200, "high": 200, "unit": "bps" },
+    "horizon": null,
+    "quote": "the long-term margin guidance on 200 bps holds and we'll try as quickly to get to that elevated number.",
+    "gist": "Long-term 200 bps margin-expansion guidance holds",
+    "speaker": "Suman Hegde",
+    "page": 9
+  },
+  {
+    "month": "Aug 2026",
+    "metric": "capex",
+    "target": { "low": 750, "high": 900, "unit": "cr" },
+    "horizon": "FY27",
+    "quote": "for the full year, I think we have indicated last time as well, the guidance has been in the range of INR750 crores to INR900 crores",
+    "gist": "FY27 capex guidance ₹750–900 cr maintained",
+    "speaker": "Suman Hegde",
+    "page": 5
+  },
+  {
+    "month": "Nov 2026",
+    "metric": "other",
+    "target": { "low": 1000, "high": null, "unit": "cr" },
+    "horizon": null,
+    "quote": "we know where to put the next 150, which takes us to a Rs 1,000 crores kind of a run rate business or more than that.",
+    "gist": "Popeyes: next 150 stores take it to ₹1,000 cr+ run-rate",
+    "speaker": "Sameer Khetarpal",
+    "page": 6
+  },
+  {
+    "month": "Nov 2026",
+    "metric": "stores",
+    "target": { "low": 40, "high": 45, "unit": "units" },
+    "horizon": null,
+    "quote": "The guidance remains about 40-45 stores.",
+    "gist": "Store-opening guidance ~40–45 (Popeyes context)",
+    "speaker": "Sameer Khetarpal",
+    "page": 6
+  }
+]

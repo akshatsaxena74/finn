@@ -1,0 +1,20 @@
+{
+  "name": "finn",
+  "version": "1.0.0",
+  "private": true,
+  "description": "FINN — a mobile-first financial investment agent: Push, Pull and a private Network layer.",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "dev": "node dev-server.mjs",
+    "ingest:market": "python3 scripts/ingest_market.py",
+    "ingest:filings": "node scripts/ingest_filings.mjs",
+    "build:research": "node scripts/build_research.mjs",
+    "refresh": "npm run ingest:market && npm run ingest:filings && npm run build:research",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "dependencies": {
+    "node-html-parser": "^6.1.13",
+    "unpdf": "^0.12.1"
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "_about": "Build-time enrichment for material filings in the demo snapshot. 'line' is FINN's one-line read of the filing PDF; 'people' are extracted from the filing (profileSource says where any career history beyond the filing came from). At runtime the same fields are produced by lib/llm.js (summariseFilings, extractPeople) when GEMINI_API_KEY is set.",
+  "byUrl": {
+    "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b463eb77-9669-42f3-920d-539fe49f910c.pdf": {
+      "line": "Gaurav Gupta, President of the India two-wheeler business, resigns for an outside role (leaves 24 Dec); four insiders get wider mandates from 20 Nov.",
+      "lineSource": "filing",
+      "eventTags": ["leadership exit", "ceo succession", "two-wheelers"],
+      "people": [
+        { "name": "Gaurav Gupta", "role": "President – India 2W Business", "action": "resigned", "effective": "2026-12-24", "career": [{ "org": "TVS Motor Company", "title": "President – India 2W Business", "from": null, "to": 2026 }], "education": [], "profileQuote": "has tendered his resignation from the services of the Company with effect from the close of business hours on 24th December 2026 to pursue an external opportunity", "profileSource": "filing" },
+        { "name": "Aniruddha Haldar", "role": "SVP – People Mobility (India 2W Business)", "action": "expanded role", "effective": "2026-11-20", "career": [{ "org": "TVS Motor Company", "title": "SVP & Business Head – Commuter Mobility; Head – Corporate Brand & Media", "from": null, "to": null }], "education": [], "profileQuote": "currently Senior Vice President & Business Head – Commuter Mobility and Head – Corporate Brand & Media, will assume the expanded role of Senior Vice President – People Mobility (India 2W Business)", "profileSource": "filing" },
+        { "name": "A Rajkumar", "role": "SVP – Business Planning; overseas special project (Asia)", "action": "expanded role", "effective": "2026-11-20", "career": [{ "org": "TVS Motor Company", "title": "SVP – Business Planning", "from": null, "to": null }], "education": [], "profileQuote": "will continue as Senior Vice President – Business Planning and additionally assume leadership of special project in overseas business in Asian region", "profileSource": "filing" },
+        { "name": "Madhu Prakash Singh", "role": "VP – International Business + New Mobility Programs", "action": "expanded role", "effective": "2026-11-20", "career": [{ "org": "TVS Motor Company", "title": "VP – International Business", "from": null, "to": null }], "education": [], "profileQuote": "will expand his responsibilities to include New Mobility Programs alongside his existing mandate", "profileSource": "filing" }
+      ]
+    },
+    "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0926e958-96d9-4537-ae2b-188dfe3eb1d1.pdf": {
+      "line": "Shareholders approve Anup Bagchi as Director and MD & CEO of HDFC Bank — the bank's top job changes hands.",
+      "lineSource": "filing",
+      "eventTags": ["ceo succession", "banking"],
+      "people": [
+        { "name": "Anup Bagchi", "role": "Director and MD & CEO", "action": "appointed", "effective": "2026-11-06", "career": [
+          { "org": "ICICI Bank", "title": "Joined the ICICI group", "from": 1992, "to": 2011 },
+          { "org": "ICICI Securities", "title": "MD & CEO", "from": 2011, "to": 2017 },
+          { "org": "ICICI Bank", "title": "Executive Director", "from": 2017, "to": 2023 },
+          { "org": "ICICI Prudential Life Insurance", "title": "MD & CEO", "from": 2023, "to": 2026 },
+          { "org": "HDFC Bank", "title": "MD & CEO", "from": 2026, "to": null }
+        ], "education": [{ "institution": "IIT Kanpur", "degree": "B.Tech" }, { "institution": "IIM Bangalore", "degree": "PGDM" }],
+        "profileQuote": "the resolution placed before the shareholders for approval through postal ballot, has been passed with requisite majority",
+        "profileSource": "Appointment from this filing; career history summarised at build time from his public professional record (the full brief profile sits in the bank's 1 Oct 2026 postal-ballot notice)." }
+      ]
+    },
+    "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7b9eb8a8-fa88-453b-810f-b55034589aac.pdf": {
+      "line": "V. Srinivasa Rangan re-appointed Executive Director for one more year from 23 Nov — continuity, not change.",
+      "lineSource": "filing",
+      "people": [{ "name": "V. Srinivasa Rangan", "role": "Executive Director", "action": "re-appointed", "effective": "2026-11-23", "career": [{ "org": "HDFC Bank", "title": "Executive Director", "from": null, "to": null }], "education": [], "profileSource": "filing" }]
+    },
+    "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6df1f05c-9926-47ce-9896-94c41bdb71ab.pdf": {
+      "line": "RBI approves V. Srinivasa Rangan's re-appointment as Executive Director for one year.",
+      "lineSource": "filing"
+    },
+    "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b36ff756-1cf7-44a3-9b2c-4583e7e0e792.pdf": {
+      "line": "Sanjay D'Souza — ~27 years at the bank and 'a key architect' of its SME franchise — retires as Group Head, Business Banking.",
+      "lineSource": "filing",
+      "eventTags": ["leadership exit", "sme lending"],
+      "people": [{ "name": "Sanjay D'Souza", "role": "Group Head – Business Banking, Emerging & Micro Enterprises", "action": "retired", "effective": "2026-10-31", "career": [{ "org": "HDFC Bank", "title": "Group Head – Business Banking", "from": 1999, "to": 2026 }], "education": [], "profileQuote": "During his association with the Bank for nearly 27 years, Mr. Sanjay D’Souza was one of the key architects of the Bank’s SME business", "profileSource": "filing" }]
+    },
+    "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c6c189db-e010-4c6e-a997-b50d6d33767a.pdf": {
+      "line": "Leo Puri approved as Independent Director; he takes over as Chairman of Asian Paints from 23 Jan 2027.",
+      "lineSource": "filing",
+      "eventTags": ["chairman change", "board"],
+      "people": [{ "name": "Leo Puri", "role": "Independent Director; Chairman from 23 Jan 2027", "action": "appointed", "effective": "2027-01-23", "career": [
+        { "org": "McKinsey & Company", "title": "Director", "from": null, "to": null },
+        { "org": "Warburg Pincus", "title": "Managing Director, India", "from": null, "to": null },
+        { "org": "UTI Asset Management", "title": "Managing Director", "from": 2013, "to": 2018 },
+        { "org": "J.P. Morgan", "title": "Chairman, South & Southeast Asia", "from": 2019, "to": null }
+      ], "education": [],
+      "profileQuote": "Mr. Leo Puri is not related to any of the Directors and/or Key Managerial Personnel and/or members of the Promoter(s) & Promoter(s) Group of the Company.",
+      "profileSource": "Appointment from this filing; career summarised at build time from his public professional record (filing points to the brief profile in Asian Paints' letter of 7 Sep 2026)." }]
+    },
+    "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=be77083a-3e44-4715-8501-b571f441c9c9.pdf": {
+      "line": "Binding term sheet: Vishay to take 49% of Kaynes Semicon for an OSAT JV (assembly, test, packaging + a Vishay captive line in India). Raghu Panicker to run it.",
+      "lineSource": "filing",
+      "eventTags": ["jv", "osat", "semiconductors", "jv integration"],
+      "orgs": ["Vishay Intertechnology"],
+      "people": [{ "name": "Raghu Panicker", "role": "MD & CEO, Kaynes Semicon (proposed JV)", "action": "appointed", "effective": null, "career": [{ "org": "Kaynes Semicon", "title": "MD & CEO", "from": null, "to": null }], "education": [], "profileQuote": "The Managing Director and Chief Executive Officer of KSPL shall be Mr. Raghu Panicker, who shall be responsible for the day-to-day management and operation of the business.", "profileSource": "filing" }]
+    },
+    "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=466e734f-36ce-44a2-a268-9ea59d11d99f.pdf": {
+      "line": "Board approves a JV with Toyokawa Techno to make thin-film (TFT) display modules in India, alongside Q2 results.",
+      "lineSource": "filing",
+      "eventTags": ["jv", "displays", "electronics manufacturing"],
+      "orgs": ["Toyokawa Techno"]
+    },
+    "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f8bed009-725a-42d7-98a8-e27518aa2bc6.pdf": {
+      "line": "Board meeting outcome: Q2 results, the Toyokawa Techno display JV, and strike-off of a dormant subsidiary.",
+      "lineSource": "filing",
+      "orgs": ["Toyokawa Techno"]
+    },
+    "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=76e41347-13f2-463f-b4d9-95374e297a34.pdf": {
+      "line": "High Court stays the pollution board's closure order on the Waluj plant (~2.5% of revenue); next hearing 19 Nov.",
+      "lineSource": "filing",
+      "eventTags": ["regulatory shutdown", "pollution control", "environmental compliance", "plant closure"],
+      "orgs": ["Maharashtra Pollution Control Board"]
+    },
+    "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2fd9e659-f62c-4499-87d5-7a101f39a970.pdf": {
+      "line": "Maharashtra Pollution Control Board orders closure of the Waluj (Chhatrapati Sambhajinagar) plant under the Water and Air Acts.",
+      "lineSource": "filing",
+      "eventTags": ["regulatory shutdown", "pollution control", "environmental compliance", "plant closure"],
+      "orgs": ["Maharashtra Pollution Control Board"]
+    },
+    "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7ab4c849-67d1-4cc7-b74d-dc5f8a34281a.pdf": {
+      "line": "Possible data leak at a third-party SaaS platform used to onboard vehicle-loan customers (~28.5 lakh on it); forensic probe under way, core systems unaffected.",
+      "lineSource": "filing",
+      "eventTags": ["data breach", "cybersecurity", "vendor risk"]
+    },
+    "https://www.screener.in/company/id/1274092/": {
+      "line": "Exchanges ask AU Bank to clarify a media report on a potential data leak.",
+      "lineSource": "filing",
+      "eventTags": ["data breach", "cybersecurity"]
+    },
+    "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3c0dc1db-ee35-4dc0-969a-8d9d547005f9.pdf": {
+      "line": "GST department searched the registered office over 29–30 Oct; the company says it cooperated and operations were unaffected.",
+      "lineSource": "filing",
+      "eventTags": ["gst search", "indirect tax"]
+    },
+    "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c3d1ba29-6132-47b7-9f3b-79a294e53189.pdf": {
+      "line": "NCLAT allows Polycab's appeal and sets aside NCLT Ahmedabad's 7 Oct order in Asier Metals vs Polycab.",
+      "lineSource": "filing",
+      "eventTags": ["insolvency", "litigation"]
+    },
+    "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b633b6e5-f968-461c-b8f1-2ac155afc384.pdf": {
+      "line": "QIP done: 76.8 lakh shares at ₹5,550 (3.66% below floor) — ₹4,265 cr raised; followed by ₹7,000 cr of NCDs on 4 Nov.",
+      "lineSource": "filing",
+      "eventTags": ["qip", "equity capital markets", "acquisition funding"]
+    },
+    "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9da2ac86-bbd6-4270-803a-909e5219b022.pdf": {
+      "line": "New 15K MTPA R32 (HFC) capacity at Surat starts commercial operations — the ₹236.5 cr project approved in Oct 2025.",
+      "lineSource": "filing",
+      "eventTags": ["plant commissioning", "fluorochemicals", "capex"]
+    }
+  }
+}

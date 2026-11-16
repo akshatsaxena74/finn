@@ -1,0 +1,1009 @@
+{
+  "version": 1,
+  "synthetic": true,
+  "note": "All contacts are fictional. Real names appear only inside 'knows' lists (subjects of public exchange filings). Org names are canonical keys of orgs.json.",
+  "me": {
+    "name": "You",
+    "persona": "Portfolio manager, Mumbai long-only fund",
+    "education": [
+      { "institution": "IIT Kanpur", "degree": "B.Tech", "from": 2004, "to": 2008 },
+      { "institution": "IIM Ahmedabad", "degree": "PGP", "from": 2010, "to": 2012 }
+    ],
+    "career": [
+      { "org": "Kotak Institutional Equities", "title": "Research Analyst", "from": 2012, "to": 2016 },
+      { "org": "Meridian Capital (fictional fund)", "title": "Portfolio Manager", "from": 2016, "to": null }
+    ]
+  },
+  "people": [
+    {
+      "id": "p01",
+      "name": "Rohan Mehrotra",
+      "headline": "Ex-ICICI Securities institutional sales; BFSI analyst at HDFC AMC",
+      "city": "Mumbai",
+      "current": { "org": "HDFC Asset Management", "title": "Senior Analyst, BFSI", "from": 2016 },
+      "career": [
+        { "org": "ICICI Securities", "title": "AVP, Institutional Equities Sales (Financials)", "from": 2012, "to": 2016, "notes": "Covered domestic MFs and insurers; desk reviewed by top management twice a year" },
+        { "org": "HDFC Asset Management", "title": "Senior Analyst, BFSI", "from": 2016, "to": null }
+      ],
+      "education": [
+        { "institution": "University of Mumbai", "degree": "B.Com", "from": 2005, "to": 2008 },
+        { "institution": "NMIMS Mumbai", "degree": "MBA (Finance)", "from": 2010, "to": 2012 }
+      ],
+      "expertise": ["private banking", "banks", "brokerage", "capital markets", "life insurance", "deposit franchise"],
+      "livedThrough": [
+        { "event": "Ran the financials sales desk through the taper-tantrum FII sell-off", "org": "ICICI Securities", "year": 2013, "tags": ["market stress"] },
+        { "event": "Tracked the HDFC-HDFC Bank merger and its deposit/NIM aftermath from the buy side", "org": "HDFC Bank", "year": 2023, "tags": ["merger integration", "margin pressure"] }
+      ],
+      "knows": [
+        { "name": "Anup Bagchi", "org": "HDFC Bank", "context": "MD & CEO of ICICI Securities during Rohan's years there; met him at sales-desk reviews and client events", "strength": 0.6 },
+        { "name": "Priya Raghavan", "org": "Axis Bank", "context": "Friends since ICICI group days", "strength": 0.7 }
+      ],
+      "relationship": { "how": "Sell-side counterpart at I-Sec; now a buy-side peer", "since": 2013, "strength": 0.7, "lastContact": "2026-09-22", "channel": "WhatsApp", "notes": "Swaps notes on bank deposit trends every quarter" },
+      "source": "synthetic"
+    },
+    {
+      "id": "p02",
+      "name": "Priya Raghavan",
+      "headline": "Ex-ICICI Bank retail & digital strategy; now Axis Bank",
+      "city": "Mumbai",
+      "current": { "org": "Axis Bank", "title": "Head, Digital Partnerships", "from": 2022 },
+      "career": [
+        { "org": "ICICI Bank", "title": "Manager -> Deputy General Manager, Retail & Digital Strategy", "from": 2009, "to": 2022, "notes": "Retail/digital strategy team, reported up to the executive director's office from 2017" },
+        { "org": "Axis Bank", "title": "Head, Digital Partnerships", "from": 2022, "to": null }
+      ],
+      "education": [
+        { "institution": "Delhi College of Engineering", "degree": "B.E.", "from": 2002, "to": 2006 },
+        { "institution": "IIM Bangalore", "degree": "PGP", "from": 2007, "to": 2009 }
+      ],
+      "expertise": ["private banking", "retail banking", "digital banking", "deposits", "credit cards", "fintech partnerships"],
+      "livedThrough": [
+        { "event": "Leadership transition after the 2018 board probe and the strategy reset that followed", "org": "ICICI Bank", "year": 2018, "tags": ["ceo succession", "governance"] },
+        { "event": "COVID loan moratorium and restructuring across the retail book", "org": "ICICI Bank", "year": 2020, "tags": ["moratorium", "asset quality"] },
+        { "event": "Integrated Citi India's consumer business partnerships after the acquisition", "org": "Axis Bank", "year": 2023, "tags": ["acquisition", "merger integration"] }
+      ],
+      "knows": [
+        { "name": "Rohan Mehrotra", "org": "HDFC Asset Management", "context": "Friends since ICICI group days", "strength": 0.7 },
+        { "name": "Karthik Bhandari", "org": "HDFC Life Insurance", "context": "Bancassurance counterpart during her ICICI Bank years", "strength": 0.55 }
+      ],
+      "relationship": { "how": "Introduced by Rohan Mehrotra; bank channel checks", "since": 2019, "strength": 0.55, "lastContact": "2025-08-14", "channel": "Call" },
+      "source": "synthetic"
+    },
+    {
+      "id": "p03",
+      "name": "Karthik Bhandari",
+      "headline": "Ex-ICICI Pru Life bancassurance head; now HDFC Life",
+      "city": "Mumbai",
+      "current": { "org": "HDFC Life Insurance", "title": "Senior VP, Partnership Distribution", "from": 2025 },
+      "career": [
+        { "org": "ICICI Bank", "title": "Relationship Manager -> Branch Manager", "from": 2008, "to": 2014 },
+        { "org": "ICICI Prudential Life Insurance", "title": "Head, Bancassurance Partnerships (West)", "from": 2014, "to": 2025, "notes": "Bank partner channel, including ICICI Bank branches" },
+        { "org": "HDFC Life Insurance", "title": "Senior VP, Partnership Distribution", "from": 2025, "to": null }
+      ],
+      "education": [
+        { "institution": "BITS Pilani", "degree": "B.E.", "from": 2001, "to": 2005 },
+        { "institution": "XLRI Jamshedpur", "degree": "PGDM", "from": 2006, "to": 2008 }
+      ],
+      "expertise": ["life insurance", "bancassurance", "insurance distribution", "private banking", "persistency"],
+      "livedThrough": [
+        { "event": "IRDAI removed commission caps; distributor payout war followed", "org": "ICICI Prudential Life Insurance", "year": 2023, "tags": ["regulatory change", "distribution costs"] },
+        { "event": "MD & CEO change; distribution re-prioritised toward non-ICICI bank partners", "org": "ICICI Prudential Life Insurance", "year": 2023, "tags": ["ceo succession", "strategy reset"] },
+        { "event": "New surrender-value rules compressed non-par product margins", "org": "ICICI Prudential Life Insurance", "year": 2024, "tags": ["regulatory change", "margin pressure"] }
+      ],
+      "knows": [
+        { "name": "Anup Bagchi", "org": "HDFC Bank", "context": "MD & CEO at ICICI Pru Life during Karthik's last two years there; quarterly bancassurance reviews", "strength": 0.5 },
+        { "name": "Priya Raghavan", "org": "Axis Bank", "context": "Bancassurance counterpart when both were in the ICICI group", "strength": 0.55 }
+      ],
+      "relationship": { "how": "Met at a Kotak insurance conference; insurance channel checks", "since": 2015, "strength": 0.45, "lastContact": "2026-03-02", "channel": "Call" },
+      "source": "synthetic"
+    },
+    {
+      "id": "p04",
+      "name": "Arvind Kesavan",
+      "headline": "IIT Kanpur '92; semiconductor veteran (TI, NXP), ISM advisor",
+      "city": "Bengaluru",
+      "current": { "org": "India Semiconductor Mission", "title": "Industry Advisor (OSAT & packaging projects)", "from": 2022 },
+      "career": [
+        { "org": "Texas Instruments", "title": "Design Engineer -> Design Manager, Analog", "from": 1994, "to": 2009 },
+        { "org": "NXP Semiconductors", "title": "Director, Automotive Product Engineering, India", "from": 2009, "to": 2021 },
+        { "org": "India Semiconductor Mission", "title": "Industry Advisor (OSAT & packaging projects)", "from": 2022, "to": null, "notes": "Part-time technical reviewer on assembly/test project proposals" }
+      ],
+      "education": [
+        { "institution": "IIT Kanpur", "degree": "B.Tech (Electrical)", "from": 1988, "to": 1992 },
+        { "institution": "Georgia Institute of Technology", "degree": "MS (ECE)", "from": 1992, "to": 1994 }
+      ],
+      "expertise": ["semiconductors", "osat", "advanced packaging", "chip design", "automotive electronics", "semiconductor policy"],
+      "livedThrough": [
+        { "event": "Auto-chip shortage: allocation fights with Tier-1 customers", "org": "NXP Semiconductors", "year": 2021, "tags": ["chip shortage", "supply chain"] },
+        { "event": "Technical reviews of the first wave of OSAT/ATMP proposals", "org": "India Semiconductor Mission", "year": 2023, "tags": ["policy incentives", "osat", "project appraisal"] }
+      ],
+      "knows": [
+        { "name": "Raghu Panicker", "org": "Kaynes Technology India", "context": "Crossed paths repeatedly on SEMICON India panels and ISM industry roundtables; on first-name terms", "strength": 0.55 },
+        { "name": "Anup Bagchi", "org": "HDFC Bank", "context": "IIT Kanpur contemporary; occasional alumni-chapter dinners, not close", "strength": 0.3 },
+        { "name": "Kunal Bhattacharya", "org": "Tata Electronics", "context": "IIT Kanpur junior; mentors him informally on packaging roadmaps", "strength": 0.6 }
+      ],
+      "relationship": { "how": "IIT Kanpur alumni network (Mumbai chapter)", "since": 2015, "strength": 0.4, "lastContact": "2025-04-20", "channel": "Email", "notes": "Senior alum; prefers email with an agenda" },
+      "source": "synthetic"
+    },
+    {
+      "id": "p05",
+      "name": "Nikhil Deshpande",
+      "headline": "Ex-HDFC Bank business banking (SME), 19 yrs; now IDFC First Bank",
+      "city": "Pune",
+      "current": { "org": "IDFC First Bank", "title": "Regional Head, Business Banking (West)", "from": 2022 },
+      "career": [
+        { "org": "HDFC Bank", "title": "Relationship Manager -> Cluster Head, Business Banking (SME), Pune", "from": 2003, "to": 2022, "notes": "19 years in the SME/business-banking line" },
+        { "org": "IDFC First Bank", "title": "Regional Head, Business Banking (West)", "from": 2022, "to": null }
+      ],
+      "education": [
+        { "institution": "Savitribai Phule Pune University", "degree": "B.Com", "from": 1997, "to": 2000 },
+        { "institution": "Symbiosis Institute of Business Management", "degree": "MBA", "from": 2001, "to": 2003 }
+      ],
+      "expertise": ["sme lending", "business banking", "working capital", "private banking", "msme credit", "trade finance"],
+      "livedThrough": [
+        { "event": "Demonetisation squeezed cash-heavy SME borrowers' working capital", "org": "HDFC Bank", "year": 2016, "tags": ["demonetisation", "working capital stress"] },
+        { "event": "RBI froze new digital launches and card sourcing after outages", "org": "HDFC Bank", "year": 2020, "tags": ["regulatory action", "it outage"] },
+        { "event": "Rolled out the government-guaranteed emergency credit line (ECLGS) to SME clients", "org": "HDFC Bank", "year": 2020, "tags": ["covid", "credit guarantee scheme"] }
+      ],
+      "knows": [
+        { "name": "Sanjay D'Souza", "org": "HDFC Bank", "context": "Senior leader of HDFC Bank's SME line through Nikhil's 19 years there; still exchanges calls and festival greetings", "strength": 0.7 },
+        { "name": "Meera Joshi", "org": "HDFC Bank", "context": "Ex-colleague, still in business-banking credit", "strength": 0.65 }
+      ],
+      "relationship": { "how": "Met at a Pune SME-cluster channel check", "since": 2017, "strength": 0.6, "lastContact": "2026-10-28", "channel": "Call" },
+      "source": "synthetic"
+    },
+    {
+      "id": "p06",
+      "name": "Deepa Venkatraman",
+      "headline": "Ex-UTI AMC equity fund manager; consumer & paints specialist",
+      "city": "Mumbai",
+      "current": { "org": "SBI Funds Management", "title": "Fund Manager, Consumption", "from": 2019 },
+      "career": [
+        { "org": "UTI Asset Management", "title": "Analyst -> Fund Manager, Equity", "from": 2014, "to": 2019 },
+        { "org": "SBI Funds Management", "title": "Fund Manager, Consumption", "from": 2019, "to": null }
+      ],
+      "education": [
+        { "institution": "IIT Madras", "degree": "B.Tech", "from": 2002, "to": 2006 },
+        { "institution": "JBIMS Mumbai", "degree": "MMS (Finance)", "from": 2006, "to": 2008 }
+      ],
+      "expertise": ["consumer discretionary", "paints", "asset management", "governance", "fund management"],
+      "livedThrough": [
+        { "event": "Top-management transition when the MD's term ended, followed by an interim leadership period", "org": "UTI Asset Management", "year": 2018, "tags": ["ceo succession", "governance"] },
+        { "event": "Long-delayed IPO preparation", "org": "UTI Asset Management", "year": 2019, "tags": ["ipo"] },
+        { "event": "Birla Opus entry reset paint-sector valuations; tracked dealer churn closely", "org": "SBI Funds Management", "year": 2024, "tags": ["new entrant", "competitive intensity"] }
+      ],
+      "knows": [
+        { "name": "Leo Puri", "org": "Asian Paints", "context": "MD of UTI AMC for most of her tenure there; presented at his quarterly fund reviews", "strength": 0.5 },
+        { "name": "Sameer Chaudhari", "org": "Birla Opus Paints", "context": "Her go-to dealer-channel source in the East", "strength": 0.5 }
+      ],
+      "relationship": { "how": "Buy-side peer; consumer sector meet-ups", "since": 2015, "strength": 0.65, "lastContact": "2026-07-09", "channel": "WhatsApp" },
+      "source": "synthetic"
+    },
+    {
+      "id": "p07",
+      "name": "Aditya Sabharwal",
+      "headline": "Ex-Warburg Pincus India VP, ex-McKinsey; runs a growth fund",
+      "city": "Mumbai",
+      "current": { "org": "Aravalli Growth Partners (fictional)", "title": "Managing Partner", "from": 2014 },
+      "career": [
+        { "org": "McKinsey & Company", "title": "Associate -> Engagement Manager", "from": 2002, "to": 2006 },
+        { "org": "Warburg Pincus", "title": "Vice President, India", "from": 2006, "to": 2013, "notes": "Consumer and financial-services deals" },
+        { "org": "Aravalli Growth Partners (fictional)", "title": "Managing Partner", "from": 2014, "to": null }
+      ],
+      "education": [
+        { "institution": "IIT Bombay", "degree": "B.Tech", "from": 1996, "to": 2000 },
+        { "institution": "IIM Calcutta", "degree": "PGDM", "from": 2000, "to": 2002 }
+      ],
+      "expertise": ["private equity", "board governance", "consumer discretionary", "financial services", "ceo search"],
+      "livedThrough": [
+        { "event": "Portfolio liquidity triage during the 2008 crisis", "org": "Warburg Pincus", "year": 2008, "tags": ["liquidity crisis"] },
+        { "event": "Replaced the CEO at a portfolio consumer company after two guidance misses", "org": "Aravalli Growth Partners (fictional)", "year": 2019, "tags": ["ceo succession", "guidance reset"] }
+      ],
+      "knows": [
+        { "name": "Leo Puri", "org": "Asian Paints", "context": "Senior colleague at Warburg Pincus India; occasional catch-ups since", "strength": 0.6 }
+      ],
+      "relationship": { "how": "Co-investor diligence calls", "since": 2017, "strength": 0.5, "lastContact": "2025-11-30", "channel": "In person", "notes": "Good read on how a new chairman changes board dynamics" },
+      "source": "synthetic"
+    },
+    {
+      "id": "p08",
+      "name": "Sameer Chaudhari",
+      "headline": "Paint-sales veteran: Asian Paints -> Berger -> Birla Opus (East)",
+      "city": "Kolkata",
+      "current": { "org": "Birla Opus Paints", "title": "Zonal Head - Sales, East", "from": 2023 },
+      "career": [
+        { "org": "Asian Paints", "title": "Sales Officer -> Area Sales Manager", "from": 2004, "to": 2011 },
+        { "org": "Berger Paints India", "title": "Regional Sales Head, East", "from": 2011, "to": 2023 },
+        { "org": "Birla Opus Paints", "title": "Zonal Head - Sales, East", "from": 2023, "to": null, "notes": "Joined pre-launch to build the dealer network" }
+      ],
+      "education": [
+        { "institution": "University of Calcutta", "degree": "B.Com", "from": 1999, "to": 2002 },
+        { "institution": "IISWBM Kolkata", "degree": "MBA", "from": 2002, "to": 2004 }
+      ],
+      "expertise": ["paints", "decorative paints", "dealer distribution", "channel incentives", "consumer discretionary"],
+      "livedThrough": [
+        { "event": "Crude-linked raw-material spike forced repeated price hikes", "org": "Berger Paints India", "year": 2021, "tags": ["commodity inflation", "price hikes"] },
+        { "event": "Birla Opus launch: dealer poaching and incentive war with incumbents", "org": "Birla Opus Paints", "year": 2024, "tags": ["new entrant", "price war", "dealer incentives"] },
+        { "event": "Decorative paint demand slowdown and heavy discounting", "org": "Birla Opus Paints", "year": 2025, "tags": ["demand slowdown", "discounting"] }
+      ],
+      "knows": [
+        { "name": "Partha Sengupta", "org": "Berger Paints India", "context": "Ex-colleague; still a regional head at Berger", "strength": 0.6 },
+        { "name": "Deepa Venkatraman", "org": "SBI Funds Management", "context": "Fund manager who calls him for dealer checks", "strength": 0.5 }
+      ],
+      "relationship": { "how": "Kolkata dealer channel checks", "since": 2019, "strength": 0.5, "lastContact": "2026-02-12", "channel": "Call" },
+      "source": "synthetic"
+    },
+    {
+      "id": "p09",
+      "name": "Varun Iyer",
+      "headline": "IIMA batchmate; ex-TVS Motor commuter-motorcycle product head, now Ather",
+      "city": "Bengaluru",
+      "current": { "org": "Ather Energy", "title": "VP, Product", "from": 2021 },
+      "career": [
+        { "org": "Hindustan Unilever", "title": "Area Sales Manager", "from": 2012, "to": 2014 },
+        { "org": "TVS Motor Company", "title": "Product Manager -> Head of Product & Brand, Commuter Motorcycles", "from": 2014, "to": 2021, "notes": "100-125cc commuter portfolio in the India two-wheeler business" },
+        { "org": "Ather Energy", "title": "VP, Product", "from": 2021, "to": null }
+      ],
+      "education": [
+        { "institution": "NIT Karnataka Surathkal", "degree": "B.Tech", "from": 2004, "to": 2008 },
+        { "institution": "IIM Ahmedabad", "degree": "PGP", "from": 2010, "to": 2012 }
+      ],
+      "expertise": ["two-wheelers", "ev", "autos", "commuter motorcycles", "rural demand", "product management"],
+      "livedThrough": [
+        { "event": "BS-VI transition: commuter-bike price hikes hit entry-level demand", "org": "TVS Motor Company", "year": 2020, "tags": ["regulatory transition", "price hikes", "demand slowdown"] },
+        { "event": "iQube electric scooter launch", "org": "TVS Motor Company", "year": 2020, "tags": ["ev launch"] },
+        { "event": "FAME-II subsidy cut forced an EV scooter price reset", "org": "Ather Energy", "year": 2023, "tags": ["subsidy cut", "price reset"] }
+      ],
+      "knows": [
+        { "name": "Gaurav Gupta", "org": "TVS Motor Company", "context": "Senior colleague in TVS's India two-wheeler business; still speaks with him most months", "strength": 0.75 },
+        { "name": "Aniruddha Haldar", "org": "TVS Motor Company", "context": "Senior to him on the commuter brand side at TVS; informal mentor", "strength": 0.6 },
+        { "name": "Ashwin Bhosale", "org": "Bajaj Auto", "context": "Industry friend from rival commuter product teams", "strength": 0.4 }
+      ],
+      "relationship": { "how": "IIM Ahmedabad 2010-2012 batchmate (same section)", "since": 2010, "strength": 0.88, "lastContact": "2026-10-30", "channel": "WhatsApp" },
+      "source": "synthetic"
+    },
+    {
+      "id": "p10",
+      "name": "Ashwin Bhosale",
+      "headline": "Bajaj Auto GM, domestic commuter motorcycles",
+      "city": "Pune",
+      "current": { "org": "Bajaj Auto", "title": "General Manager, Domestic Motorcycles (Commuter)", "from": 2009 },
+      "career": [
+        { "org": "Bajaj Auto", "title": "General Manager, Domestic Motorcycles (Commuter)", "from": 2009, "to": null, "notes": "Joined as a management trainee; career-long Bajaj" }
+      ],
+      "education": [
+        { "institution": "College of Engineering Pune", "degree": "B.E. (Mechanical)", "from": 2001, "to": 2005 },
+        { "institution": "Symbiosis Institute of Business Management", "degree": "MBA", "from": 2007, "to": 2009 }
+      ],
+      "expertise": ["two-wheelers", "autos", "ev", "commuter motorcycles", "exports", "dealer network"],
+      "livedThrough": [
+        { "event": "Nigeria currency crisis crushed export volumes", "org": "Bajaj Auto", "year": 2023, "tags": ["export shock", "fx"] },
+        { "event": "Launch of the Triumph partnership motorcycles", "org": "Bajaj Auto", "year": 2023, "tags": ["partnership launch"] },
+        { "event": "China's rare-earth magnet export curbs disrupted EV scooter output", "org": "Bajaj Auto", "year": 2025, "tags": ["supply chain", "ev"] }
+      ],
+      "knows": [
+        { "name": "Varun Iyer", "org": "Ather Energy", "context": "Industry friend from rival commuter product teams", "strength": 0.4 }
+      ],
+      "relationship": { "how": "Met on a Chakan plant visit", "since": 2023, "strength": 0.35, "lastContact": "2025-06-18", "channel": "Email" },
+      "source": "synthetic"
+    },
+    {
+      "id": "p11",
+      "name": "Rajesh Gokhale",
+      "headline": "Ex-Vishay India operations (Pune plant), 25 yrs; now Micron Sanand",
+      "city": "Ahmedabad",
+      "current": { "org": "Micron Technology", "title": "Senior Manager, Assembly & Test Operations (Sanand)", "from": 2022 },
+      "career": [
+        { "org": "Vishay Intertechnology", "title": "Process Engineer -> Operations Director, India (Pune plant)", "from": 1996, "to": 2021, "notes": "Passive components and discretes; ran plant P&L, quality and customer audits" },
+        { "org": "Micron Technology", "title": "Senior Manager, Assembly & Test Operations (Sanand)", "from": 2022, "to": null }
+      ],
+      "education": [
+        { "institution": "College of Engineering Pune", "degree": "B.E. (Electronics)", "from": 1991, "to": 1995 }
+      ],
+      "expertise": ["semiconductors", "osat", "passive components", "plant operations", "manufacturing quality", "customer audits"],
+      "livedThrough": [
+        { "event": "Downturn-driven line consolidation and cost cuts at the Pune plant", "org": "Vishay Intertechnology", "year": 2009, "tags": ["downcycle", "cost cuts"] },
+        { "event": "Cleanroom ramp and first-phase commissioning of the Sanand ATMP", "org": "Micron Technology", "year": 2025, "tags": ["plant commissioning", "osat"] }
+      ],
+      "knows": [
+        { "name": "Suresh Natarajan", "org": "Vishay Intertechnology", "context": "Former deputy; still runs India quality at Vishay", "strength": 0.6 },
+        { "name": "Kunal Bhattacharya", "org": "Tata Electronics", "context": "Worked together on the Sanand ramp before Kunal moved to Tata", "strength": 0.5 }
+      ],
+      "relationship": { "how": "Pune plant tour during Kotak days", "since": 2014, "strength": 0.45, "lastContact": "2025-10-10", "channel": "Call" },
+      "source": "synthetic"
+    },
+    {
+      "id": "p12",
+      "name": "Kunal Bhattacharya",
+      "headline": "IITK batchmate; OSAT/advanced-packaging engineer (Micron -> Tata Electronics)",
+      "city": "Guwahati",
+      "current": { "org": "Tata Electronics", "title": "Head of Process Integration, OSAT (Jagiroad, Assam)", "from": 2024 },
+      "career": [
+        { "org": "Micron Technology", "title": "Packaging Engineer -> Senior Manager, Advanced Packaging", "from": 2010, "to": 2024, "notes": "Boise and Singapore; seconded to the Sanand ATMP project 2023-2024" },
+        { "org": "Tata Electronics", "title": "Head of Process Integration, OSAT (Jagiroad, Assam)", "from": 2024, "to": null }
+      ],
+      "education": [
+        { "institution": "IIT Kanpur", "degree": "B.Tech (Electrical)", "from": 2004, "to": 2008 },
+        { "institution": "Georgia Institute of Technology", "degree": "MS (ECE)", "from": 2008, "to": 2010 }
+      ],
+      "expertise": ["semiconductors", "osat", "advanced packaging", "wire bond", "flip chip", "yield engineering"],
+      "livedThrough": [
+        { "event": "Memory downcycle: capex and headcount cuts", "org": "Micron Technology", "year": 2023, "tags": ["downcycle", "capex cut"] },
+        { "event": "Sanand ATMP construction and tool move-in", "org": "Micron Technology", "year": 2024, "tags": ["plant commissioning", "osat"] },
+        { "event": "Greenfield OSAT ramp in Assam: tool qualification and customer audits", "org": "Tata Electronics", "year": 2025, "tags": ["plant commissioning", "customer qualification"] }
+      ],
+      "knows": [
+        { "name": "Raghu Panicker", "org": "Kaynes Technology India", "context": "Met at SEMICON India; they compete for the same packaging talent pool", "strength": 0.35 },
+        { "name": "Rajesh Gokhale", "org": "Micron Technology", "context": "Worked together on the Sanand ramp", "strength": 0.5 },
+        { "name": "Arvind Kesavan", "org": "India Semiconductor Mission", "context": "IIT Kanpur senior and informal mentor", "strength": 0.6 },
+        { "name": "Abhishek Tripathi", "org": "Bharti Airtel", "context": "IIT Kanpur batchmate", "strength": 0.6 }
+      ],
+      "relationship": { "how": "IIT Kanpur 2004-2008 batchmate (same hall)", "since": 2004, "strength": 0.92, "lastContact": "2026-11-02", "channel": "WhatsApp" },
+      "source": "synthetic"
+    },
+    {
+      "id": "p13",
+      "name": "Harish Shenoy",
+      "headline": "Ex-Kaynes Technology EMS operations (Mysuru); now Syrma SGS",
+      "city": "Mysuru",
+      "current": { "org": "Syrma SGS Technology", "title": "VP, Operations", "from": 2022 },
+      "career": [
+        { "org": "Kaynes Technology India", "title": "Production Engineer -> GM, Box-build & EMS Operations (Mysuru)", "from": 2008, "to": 2022 },
+        { "org": "Syrma SGS Technology", "title": "VP, Operations", "from": 2022, "to": null }
+      ],
+      "education": [
+        { "institution": "Manipal Institute of Technology", "degree": "B.E. (Electronics)", "from": 1996, "to": 2000 }
+      ],
+      "expertise": ["electronics manufacturing", "ems", "box build", "pcba", "automotive electronics", "industrial electronics"],
+      "livedThrough": [
+        { "event": "Global chip shortage stalled EMS lines; spot buying at multiples of list price", "org": "Kaynes Technology India", "year": 2021, "tags": ["chip shortage", "supply chain"] },
+        { "event": "IPO and the capacity build-out that followed", "org": "Kaynes Technology India", "year": 2022, "tags": ["ipo", "capacity ramp"] }
+      ],
+      "knows": [
+        { "name": "Raghu Panicker", "org": "Kaynes Technology India", "context": "Knows him through Kaynes alumni circles; reconnected at SEMICON India 2024", "strength": 0.45 },
+        { "name": "Mohit Bansal", "org": "Avalon Technologies", "context": "EMS industry peer", "strength": 0.4 }
+      ],
+      "relationship": { "how": "Kaynes Mysuru plant visit (pre-IPO)", "since": 2022, "strength": 0.55, "lastContact": "2026-05-21", "channel": "Call" },
+      "source": "synthetic"
+    },
+    {
+      "id": "p14",
+      "name": "Mohit Bansal",
+      "headline": "Ex-Dixon mobile-phone plant head (Noida); now Avalon Technologies",
+      "city": "Chennai",
+      "current": { "org": "Avalon Technologies", "title": "VP, Manufacturing", "from": 2023 },
+      "career": [
+        { "org": "Dixon Technologies", "title": "Production Manager -> Plant Head, Mobile Phones (Noida)", "from": 2014, "to": 2023 },
+        { "org": "Avalon Technologies", "title": "VP, Manufacturing", "from": 2023, "to": null }
+      ],
+      "education": [
+        { "institution": "Delhi College of Engineering", "degree": "B.E.", "from": 2000, "to": 2004 },
+        { "institution": "Faculty of Management Studies Delhi", "degree": "MBA", "from": 2006, "to": 2008 }
+      ],
+      "expertise": ["electronics manufacturing", "ems", "mobile phones", "pli", "component sourcing", "capacity ramp"],
+      "livedThrough": [
+        { "event": "COVID lockdown shut the Noida plant; restart amid migrant-labour shortage", "org": "Dixon Technologies", "year": 2020, "tags": ["covid", "plant restart", "labour shortage"] },
+        { "event": "PLI-driven mobile-phone capacity ramp for multiple brands", "org": "Dixon Technologies", "year": 2021, "tags": ["pli", "capacity ramp"] }
+      ],
+      "knows": [
+        { "name": "Harish Shenoy", "org": "Syrma SGS Technology", "context": "EMS industry peer", "strength": 0.4 }
+      ],
+      "relationship": { "how": "Noida plant visit", "since": 2019, "strength": 0.5, "lastContact": "2025-12-04", "channel": "WhatsApp" },
+      "source": "synthetic"
+    },
+    {
+      "id": "p15",
+      "name": "Shrikant Patil",
+      "headline": "Ex-plant head, CG Power Waluj; lived through an MPCB closure order",
+      "city": "Chhatrapati Sambhajinagar",
+      "current": { "org": "Godavari Forgings (fictional)", "title": "Director - Operations", "from": 2020 },
+      "career": [
+        { "org": "CG Power and Industrial Solutions", "title": "Graduate Engineer Trainee -> Plant Head, Waluj (Aurangabad MIDC)", "from": 1996, "to": 2020, "notes": "Plant head at Waluj 2012-2020" },
+        { "org": "Godavari Forgings (fictional)", "title": "Director - Operations", "from": 2020, "to": null }
+      ],
+      "education": [
+        { "institution": "Dr. Babasaheb Ambedkar Marathwada University", "degree": "B.E. (Electrical)", "from": 1992, "to": 1996 }
+      ],
+      "expertise": ["electrical equipment", "capital goods", "plant operations", "environmental compliance", "pollution control boards", "labour relations", "aurangabad midc"],
+      "livedThrough": [
+        { "event": "Promoter-era accounting fraud surfaced; lender squeeze and plant-level cash rationing", "org": "CG Power and Industrial Solutions", "year": 2019, "tags": ["governance", "fraud", "liquidity crisis"] },
+        { "event": "Change of control to Tube Investments (Murugappa group) and the turnaround that followed", "org": "CG Power and Industrial Solutions", "year": 2020, "tags": ["change of control", "turnaround"] },
+        { "event": "MPCB closure direction over effluent norms; High Court stay in 10 days, revoked after remediation in seven weeks", "org": "Godavari Forgings (fictional)", "year": 2023, "tags": ["regulatory shutdown", "pollution board", "court stay", "environmental compliance"] }
+      ],
+      "knows": [
+        { "name": "Santosh Wagh", "org": "CG Power and Industrial Solutions", "context": "His former EHS manager; still at the Waluj plant", "strength": 0.7 },
+        { "name": "Vaishali Deshmukh", "org": "Sahyadri Legal (fictional)", "context": "Argued his 2023 MPCB closure matter", "strength": 0.65 },
+        { "name": "Dnyaneshwar Shinde", "org": "Sahyadri Legal (fictional)", "context": "Knew him for years as the regional MPCB officer", "strength": 0.5 }
+      ],
+      "relationship": { "how": "Waluj plant visit organised by CG investor relations", "since": 2018, "strength": 0.6, "lastContact": "2025-09-01", "channel": "Call", "notes": "Marathi-first; best reached early morning" },
+      "source": "synthetic"
+    },
+    {
+      "id": "p16",
+      "name": "Vaishali Deshmukh",
+      "headline": "Environmental & regulatory lawyer; pollution-board closures, NGT",
+      "city": "Mumbai",
+      "current": { "org": "Sahyadri Legal (fictional)", "title": "Founding Partner, Environment & Regulatory Litigation", "from": 2018 },
+      "career": [
+        { "org": "Shardul Amarchand Mangaldas & Co", "title": "Associate -> Senior Associate, Environment & Regulatory", "from": 2009, "to": 2018 },
+        { "org": "Sahyadri Legal (fictional)", "title": "Founding Partner, Environment & Regulatory Litigation", "from": 2018, "to": null }
+      ],
+      "education": [
+        { "institution": "Government Law College Mumbai", "degree": "LL.B. (5-year)", "from": 2003, "to": 2008 },
+        { "institution": "National Law School of India University", "degree": "LL.M.", "from": 2008, "to": 2009 }
+      ],
+      "expertise": ["environmental compliance", "environmental law", "pollution control boards", "ngt", "high court litigation", "esg"],
+      "livedThrough": [
+        { "event": "Represented a Tarapur MIDC chemical unit in NGT effluent-compensation proceedings", "org": "Sahyadri Legal (fictional)", "year": 2020, "tags": ["ngt", "environmental compliance", "specialty chemicals"] },
+        { "event": "Won a High Court stay on an MPCB closure direction for an Aurangabad MIDC unit", "org": "Sahyadri Legal (fictional)", "year": 2023, "tags": ["regulatory shutdown", "pollution board", "court stay"] }
+      ],
+      "knows": [
+        { "name": "Shrikant Patil", "org": "Godavari Forgings (fictional)", "context": "Client in the 2023 MPCB closure matter", "strength": 0.6 },
+        { "name": "Dnyaneshwar Shinde", "org": "Sahyadri Legal (fictional)", "context": "Retained him as technical advisor after his MPCB retirement", "strength": 0.75 }
+      ],
+      "relationship": { "how": "Introduced by Shrikant Patil", "since": 2023, "strength": 0.45, "lastContact": "2026-06-10", "channel": "Email" },
+      "source": "synthetic"
+    },
+    {
+      "id": "p17",
+      "name": "Farhan Qureshi",
+      "headline": "Bank Deputy CISO; led response to the 2021 Domino's India data leak",
+      "city": "Mumbai",
+      "current": { "org": "Kotak Mahindra Bank", "title": "Deputy CISO, Third-party & Cloud Security", "from": 2022 },
+      "career": [
+        { "org": "HDFC Bank", "title": "Senior Manager, Information Security", "from": 2006, "to": 2014 },
+        { "org": "Jubilant FoodWorks", "title": "Head, Information Security", "from": 2014, "to": 2022 },
+        { "org": "Kotak Mahindra Bank", "title": "Deputy CISO, Third-party & Cloud Security", "from": 2022, "to": null }
+      ],
+      "education": [
+        { "institution": "Jamia Millia Islamia", "degree": "B.Tech (Computer Science)", "from": 2001, "to": 2005 }
+      ],
+      "expertise": ["cybersecurity", "data breach response", "third-party risk", "saas security", "dpdp act", "rbi it governance"],
+      "livedThrough": [
+        { "event": "Customer data leak at Domino's India: incident response, forensics and disclosure", "org": "Jubilant FoodWorks", "year": 2021, "tags": ["data breach", "incident response", "disclosure"] },
+        { "event": "RBI barred onboarding new customers via digital channels over IT-risk gaps (lifted 2025)", "org": "Kotak Mahindra Bank", "year": 2024, "tags": ["regulatory action", "it risk", "vendor risk"] }
+      ],
+      "knows": [
+        { "name": "Pooja Saini", "org": "AU Small Finance Bank", "context": "Ex-HDFC Bank colleague; now in AU's security architecture team", "strength": 0.5 },
+        { "name": "Neha Bhalla", "org": "Devyani International", "context": "Worked together at Jubilant during the 2021 incident", "strength": 0.45 }
+      ],
+      "relationship": { "how": "Met at a CII cyber roundtable; helped with a DPDP Act explainer", "since": 2022, "strength": 0.55, "lastContact": "2026-10-21", "channel": "Call" },
+      "source": "synthetic"
+    },
+    {
+      "id": "p18",
+      "name": "Yogesh Rathore",
+      "headline": "Ex-AU Small Finance Bank vehicle finance (Wheels), Rajasthan",
+      "city": "Jaipur",
+      "current": { "org": "Shriram Finance", "title": "Regional Business Head, Commercial Vehicles", "from": 2021 },
+      "career": [
+        { "org": "AU Small Finance Bank", "title": "Branch Credit Officer -> Zonal Business Head, Wheels (Vehicle Finance)", "from": 2006, "to": 2021, "notes": "Joined when it was AU Financiers (NBFC); built dealer-led and digital loan-onboarding flows" },
+        { "org": "Shriram Finance", "title": "Regional Business Head, Commercial Vehicles", "from": 2021, "to": null }
+      ],
+      "education": [
+        { "institution": "University of Rajasthan", "degree": "B.Com", "from": 1998, "to": 2001 },
+        { "institution": "University of Rajasthan", "degree": "MBA", "from": 2001, "to": 2003 }
+      ],
+      "expertise": ["vehicle finance", "rural lending", "small finance bank", "collections", "digital loan onboarding", "used cv finance", "nbfc"],
+      "livedThrough": [
+        { "event": "Demonetisation hit vehicle-loan collections in rural Rajasthan", "org": "AU Small Finance Bank", "year": 2016, "tags": ["demonetisation", "collections stress"] },
+        { "event": "Conversion from NBFC to small finance bank", "org": "AU Small Finance Bank", "year": 2017, "tags": ["license conversion", "transformation"] },
+        { "event": "Shriram Transport-Shriram City merger integration", "org": "Shriram Finance", "year": 2022, "tags": ["merger integration"] }
+      ],
+      "knows": [
+        { "name": "Ritu Choudhary", "org": "AU Small Finance Bank", "context": "Former reportee; now in AU's Wheels product team", "strength": 0.65 }
+      ],
+      "relationship": { "how": "Jaipur branch visits with AU investor relations", "since": 2018, "strength": 0.5, "lastContact": "2025-07-22", "channel": "Call" },
+      "source": "synthetic"
+    },
+    {
+      "id": "p19",
+      "name": "Kavita Menon",
+      "headline": "Big 4 indirect-tax (GST) partner; financial-services clients",
+      "city": "Mumbai",
+      "current": { "org": "KPMG India", "title": "Partner, Indirect Tax (GST)", "from": 2012 },
+      "career": [
+        { "org": "Deloitte India", "title": "Manager, Indirect Tax", "from": 2004, "to": 2012 },
+        { "org": "KPMG India", "title": "Partner, Indirect Tax (GST)", "from": 2012, "to": null }
+      ],
+      "education": [
+        { "institution": "University of Mumbai", "degree": "B.Com", "from": 1997, "to": 2000 },
+        { "institution": "Institute of Chartered Accountants of India", "degree": "CA", "from": 2000, "to": 2003 }
+      ],
+      "expertise": ["gst", "indirect tax", "tax litigation", "financial services tax", "dggi investigations", "nbfc"],
+      "livedThrough": [
+        { "event": "GST rollout: led the transition for NBFC and gold-loan clients", "org": "KPMG India", "year": 2017, "tags": ["gst", "regulatory transition"] },
+        { "event": "Led client responses to DGGI searches at two financial-services companies", "org": "KPMG India", "year": 2023, "tags": ["gst search", "tax investigation"] }
+      ],
+      "knows": [
+        { "name": "Joseph Varghese", "org": "IIFL Finance", "context": "Business-side contact on gold-loan GST questions", "strength": 0.4 }
+      ],
+      "relationship": { "how": "Tax-explainer calls since the GST rollout", "since": 2017, "strength": 0.6, "lastContact": "2026-04-14", "channel": "Call" },
+      "source": "synthetic"
+    },
+    {
+      "id": "p20",
+      "name": "Joseph Varghese",
+      "headline": "Ex-Muthoot Finance & Muthoot Money gold-loan manager; now IIFL",
+      "city": "Kochi",
+      "current": { "org": "IIFL Finance", "title": "Zonal Head, Gold Loans (South)", "from": 2021 },
+      "career": [
+        { "org": "Muthoot Finance", "title": "Branch Manager -> Regional Manager, Gold Loans (Central Kerala)", "from": 2006, "to": 2018 },
+        { "org": "Muthoot Money", "title": "Head, Branch Expansion", "from": 2018, "to": 2021, "notes": "Moved over after Muthoot Finance acquired it" },
+        { "org": "IIFL Finance", "title": "Zonal Head, Gold Loans (South)", "from": 2021, "to": null }
+      ],
+      "education": [
+        { "institution": "Cochin University of Science and Technology", "degree": "MBA", "from": 2004, "to": 2006 }
+      ],
+      "expertise": ["gold loans", "nbfc", "rural lending", "branch expansion", "gold auctions"],
+      "livedThrough": [
+        { "event": "LTV cap plus the gold price fall forced large-scale auctions", "org": "Muthoot Finance", "year": 2013, "tags": ["ltv cap", "gold price fall", "auctions"] },
+        { "event": "Muthoot Finance acquired Muthoot Money; integrated branches and systems", "org": "Muthoot Money", "year": 2018, "tags": ["acquisition", "merger integration"] },
+        { "event": "RBI embargo on gold-loan disbursals (Mar-Sep 2024)", "org": "IIFL Finance", "year": 2024, "tags": ["regulatory action", "embargo"] }
+      ],
+      "knows": [
+        { "name": "Biju Mathew", "org": "Muthoot Finance", "context": "Ex-colleague; now in compliance at Muthoot Finance", "strength": 0.6 },
+        { "name": "Kavita Menon", "org": "KPMG India", "context": "GST adviser he has worked with", "strength": 0.4 }
+      ],
+      "relationship": { "how": "Kerala branch tour", "since": 2017, "strength": 0.55, "lastContact": "2026-01-19", "channel": "WhatsApp" },
+      "source": "synthetic"
+    },
+    {
+      "id": "p21",
+      "name": "Ishita Kapoor",
+      "headline": "Insolvency lawyer; NCLT/NCLAT operational-creditor disputes",
+      "city": "New Delhi",
+      "current": { "org": "Cyril Amarchand Mangaldas", "title": "Partner, Insolvency & Restructuring", "from": 2017 },
+      "career": [
+        { "org": "Khaitan & Co", "title": "Associate, Disputes", "from": 2012, "to": 2017 },
+        { "org": "Cyril Amarchand Mangaldas", "title": "Partner, Insolvency & Restructuring", "from": 2017, "to": null }
+      ],
+      "education": [
+        { "institution": "National Law University Delhi", "degree": "B.A. LL.B.", "from": 2007, "to": 2012 }
+      ],
+      "expertise": ["insolvency", "ibc", "nclt", "nclat", "restructuring", "operational creditor disputes"],
+      "livedThrough": [
+        { "event": "First wave of large IBC cases after RBI's 2017 referrals", "org": "Cyril Amarchand Mangaldas", "year": 2017, "tags": ["insolvency", "ibc"] },
+        { "event": "Got an NCLT admission set aside at NCLAT on a pre-existing dispute in an operational-creditor petition", "org": "Cyril Amarchand Mangaldas", "year": 2022, "tags": ["insolvency", "nclat appeal", "operational creditor"] }
+      ],
+      "knows": [
+        { "name": "Sanjana Pillai", "org": "EY India", "context": "Works with her on forensic reports in insolvency matters", "strength": 0.5 }
+      ],
+      "relationship": { "how": "Met at an IBC seminar", "since": 2018, "strength": 0.45, "lastContact": "2025-05-27", "channel": "Email" },
+      "source": "synthetic"
+    },
+    {
+      "id": "p22",
+      "name": "Hitesh Shah",
+      "headline": "Ex-Polycab channel sales (wires, West); now KEI Industries",
+      "city": "Vadodara",
+      "current": { "org": "KEI Industries", "title": "VP Sales, Retail Wires", "from": 2024 },
+      "career": [
+        { "org": "Polycab India", "title": "Area Sales Manager -> Head, Channel Sales - Wires (West)", "from": 2010, "to": 2024 },
+        { "org": "KEI Industries", "title": "VP Sales, Retail Wires", "from": 2024, "to": null }
+      ],
+      "education": [
+        { "institution": "Maharaja Sayajirao University of Baroda", "degree": "B.E. (Electrical)", "from": 2003, "to": 2007 }
+      ],
+      "expertise": ["cables", "wires", "electricals", "channel distribution", "copper pass-through"],
+      "livedThrough": [
+        { "event": "IPO", "org": "Polycab India", "year": 2019, "tags": ["ipo"] },
+        { "event": "Copper price spike and pass-through to dealers", "org": "Polycab India", "year": 2021, "tags": ["commodity inflation", "price pass-through"] },
+        { "event": "Income-tax searches and the channel-confidence fallout", "org": "Polycab India", "year": 2023, "tags": ["tax search", "governance"] }
+      ],
+      "knows": [
+        { "name": "Kiran Doshi", "org": "Polycab India", "context": "Ex-colleague in Polycab's credit-control and vendor-payments team", "strength": 0.55 }
+      ],
+      "relationship": { "how": "Halol plant visit", "since": 2019, "strength": 0.5, "lastContact": "2026-09-09", "channel": "WhatsApp" },
+      "source": "synthetic"
+    },
+    {
+      "id": "p23",
+      "name": "Tanvi Kothari",
+      "headline": "ECM banker who runs QIPs; ex-Kotak IE colleague, ex-J.P. Morgan",
+      "city": "Mumbai",
+      "current": { "org": "Kotak Mahindra Capital", "title": "Managing Director, Equity Capital Markets", "from": 2020 },
+      "career": [
+        { "org": "Kotak Institutional Equities", "title": "Associate, Research (IT services)", "from": 2011, "to": 2014 },
+        { "org": "J.P. Morgan", "title": "Vice President, Equity Capital Markets, India", "from": 2014, "to": 2020 },
+        { "org": "Kotak Mahindra Capital", "title": "Managing Director, Equity Capital Markets", "from": 2020, "to": null }
+      ],
+      "education": [
+        { "institution": "Shri Ram College of Commerce", "degree": "B.Com (Hons)", "from": 2005, "to": 2008 },
+        { "institution": "IIM Calcutta", "degree": "PGDM", "from": 2009, "to": 2011 }
+      ],
+      "expertise": ["equity capital markets", "qip", "ipo", "block deals", "it services", "acquisition financing"],
+      "livedThrough": [
+        { "event": "Taper-tantrum: deals pulled as FIIs exited", "org": "Kotak Institutional Equities", "year": 2013, "tags": ["market stress"] },
+        { "event": "Ran several QIPs in the post-COVID bank and NBFC capital-raising wave", "org": "Kotak Mahindra Capital", "year": 2020, "tags": ["qip", "equity raise"] },
+        { "event": "Large QIPs and blocks in the 2024 issuance boom; allocation and pricing calls", "org": "Kotak Mahindra Capital", "year": 2024, "tags": ["qip", "block deals"] }
+      ],
+      "knows": [
+        { "name": "Ritika Malhotra", "org": "Navin Fluorine International", "context": "Kotak IE colleagues", "strength": 0.7 },
+        { "name": "Amol Joshi", "org": "Coforge", "context": "Knew him from her IT-services research days", "strength": 0.4 }
+      ],
+      "relationship": { "how": "Ex-colleague at Kotak Institutional Equities", "since": 2012, "strength": 0.8, "lastContact": "2026-10-17", "channel": "In person" },
+      "source": "synthetic"
+    },
+    {
+      "id": "p24",
+      "name": "Amol Joshi",
+      "headline": "Ex-Persistent Systems BFSI delivery head (19 yrs); now Coforge",
+      "city": "Pune",
+      "current": { "org": "Coforge", "title": "SVP, Banking Delivery", "from": 2022 },
+      "career": [
+        { "org": "Persistent Systems", "title": "Software Engineer -> VP & Delivery Head, BFSI", "from": 2003, "to": 2022, "notes": "Ran BFSI delivery through the large-deal phase and several acquisition integrations" },
+        { "org": "Coforge", "title": "SVP, Banking Delivery", "from": 2022, "to": null }
+      ],
+      "education": [
+        { "institution": "College of Engineering Pune", "degree": "B.E. (Computer)", "from": 1999, "to": 2003 }
+      ],
+      "expertise": ["it services", "bfsi delivery", "m&a integration", "deal pricing", "offshore delivery"],
+      "livedThrough": [
+        { "event": "Services-led growth reset and large-deal push", "org": "Persistent Systems", "year": 2020, "tags": ["strategy reset", "large deals"] },
+        { "event": "Integrated three tuck-in acquisitions in one year", "org": "Persistent Systems", "year": 2022, "tags": ["m&a integration"] }
+      ],
+      "knows": [
+        { "name": "Tanvi Kothari", "org": "Kotak Mahindra Capital", "context": "Former sell-side analyst on Persistent", "strength": 0.4 }
+      ],
+      "relationship": { "how": "Pune IT channel checks", "since": 2015, "strength": 0.6, "lastContact": "2025-03-24", "channel": "Call", "notes": "Useful on acquisition integration and delivery margins" },
+      "source": "synthetic"
+    },
+    {
+      "id": "p25",
+      "name": "Chirag Desai",
+      "headline": "Ex-Aarti Industries business development; now Deepak Nitrite",
+      "city": "Mumbai",
+      "current": { "org": "Deepak Nitrite", "title": "Senior GM, Strategy", "from": 2022 },
+      "career": [
+        { "org": "Aarti Industries", "title": "Executive -> GM, Business Development (Benzene derivatives)", "from": 2008, "to": 2022, "notes": "Worked on long-term supply contracts with global customers" },
+        { "org": "Deepak Nitrite", "title": "Senior GM, Strategy", "from": 2022, "to": null }
+      ],
+      "education": [
+        { "institution": "Institute of Chemical Technology Mumbai", "degree": "B.Chem.Eng.", "from": 2002, "to": 2006 },
+        { "institution": "JBIMS Mumbai", "degree": "MMS", "from": 2006, "to": 2008 }
+      ],
+      "expertise": ["specialty chemicals", "benzene derivatives", "nitro chemistry", "long-term supply contracts", "chemicals capex"],
+      "livedThrough": [
+        { "event": "A large multi-year supply contract ended early with compensation; EBITDA guidance re-based", "org": "Aarti Industries", "year": 2021, "tags": ["contract termination", "guidance reset"] },
+        { "event": "Pharma business demerged into a separately listed company", "org": "Aarti Industries", "year": 2022, "tags": ["demerger"] },
+        { "event": "Chemical destocking and Chinese price pressure", "org": "Deepak Nitrite", "year": 2023, "tags": ["chemicals downcycle", "destocking"] }
+      ],
+      "knows": [
+        { "name": "Ritika Malhotra", "org": "Navin Fluorine International", "context": "Chemicals-industry friend from her Kotak research days", "strength": 0.45 }
+      ],
+      "relationship": { "how": "Kotak chemicals conference", "since": 2014, "strength": 0.55, "lastContact": "2026-02-28", "channel": "Call" },
+      "source": "synthetic"
+    },
+    {
+      "id": "p26",
+      "name": "Meghna Sood",
+      "headline": "IIMA batchmate; ex-PI Industries CSM business development",
+      "city": "Surat",
+      "current": { "org": "Anupam Rasayan India", "title": "VP, Custom Synthesis (Japan & Europe)", "from": 2023 },
+      "career": [
+        { "org": "PI Industries", "title": "Manager -> Head, CSM Business Development (Japan & EU innovators)", "from": 2012, "to": 2023 },
+        { "org": "Anupam Rasayan India", "title": "VP, Custom Synthesis (Japan & Europe)", "from": 2023, "to": null }
+      ],
+      "education": [
+        { "institution": "Institute of Chemical Technology Mumbai", "degree": "B.Chem.Eng.", "from": 2005, "to": 2009 },
+        { "institution": "IIM Ahmedabad", "degree": "PGP", "from": 2010, "to": 2012 }
+      ],
+      "expertise": ["agrochemicals", "csm", "custom synthesis", "cdmo", "specialty chemicals", "japanese innovators"],
+      "livedThrough": [
+        { "event": "Pharma CDMO foray via acquisition", "org": "PI Industries", "year": 2022, "tags": ["acquisition", "diversification"] },
+        { "event": "Global agchem destocking hit the CSM order book; growth guidance reset", "org": "PI Industries", "year": 2023, "tags": ["guidance reset", "agchem destocking"] }
+      ],
+      "knows": [
+        { "name": "Neha Bhalla", "org": "Devyani International", "context": "IIMA batchmate", "strength": 0.7 }
+      ],
+      "relationship": { "how": "IIM Ahmedabad 2010-2012 batchmate", "since": 2010, "strength": 0.7, "lastContact": "2026-07-25", "channel": "WhatsApp" },
+      "source": "synthetic"
+    },
+    {
+      "id": "p27",
+      "name": "Ritika Malhotra",
+      "headline": "Ex-Kotak IE colleague; ex-SRF fluorochemicals strategy; now Navin CDMO",
+      "city": "Mumbai",
+      "current": { "org": "Navin Fluorine International", "title": "Head, CDMO Business Development", "from": 2023 },
+      "career": [
+        { "org": "Kotak Institutional Equities", "title": "Associate, Chemicals Research", "from": 2010, "to": 2015 },
+        { "org": "SRF", "title": "Manager -> AGM, Strategy, Fluorochemicals", "from": 2015, "to": 2023 },
+        { "org": "Navin Fluorine International", "title": "Head, CDMO Business Development", "from": 2023, "to": null }
+      ],
+      "education": [
+        { "institution": "Delhi College of Engineering", "degree": "B.E. (Chemical)", "from": 2002, "to": 2006 },
+        { "institution": "MDI Gurgaon", "degree": "PGDM", "from": 2008, "to": 2010 }
+      ],
+      "expertise": ["fluorochemicals", "specialty chemicals", "refrigerants", "cdmo", "ptfe", "chemicals capex"],
+      "livedThrough": [
+        { "event": "Refrigerant gas prices collapsed on Chinese oversupply; chemicals guidance cut", "org": "SRF", "year": 2023, "tags": ["price crash", "chemicals downcycle", "guidance reset"] },
+        { "event": "Commissioning of new fluorospecialty capacity at Dahej", "org": "Navin Fluorine International", "year": 2024, "tags": ["plant commissioning", "capacity ramp"] }
+      ],
+      "knows": [
+        { "name": "Tanvi Kothari", "org": "Kotak Mahindra Capital", "context": "Kotak IE colleagues", "strength": 0.7 },
+        { "name": "Jignesh Patel", "org": "Gujarat Fluorochemicals", "context": "Plant-side friend from fluorochemical industry forums", "strength": 0.4 }
+      ],
+      "relationship": { "how": "Ex-colleague at Kotak Institutional Equities", "since": 2012, "strength": 0.75, "lastContact": "2026-08-30", "channel": "WhatsApp", "notes": "Now an insider at a portfolio company; keep conversations non-specific" },
+      "source": "synthetic"
+    },
+    {
+      "id": "p28",
+      "name": "Jignesh Patel",
+      "headline": "Ex-Navin Fluorine plant manager (Surat); now Gujarat Fluorochemicals",
+      "city": "Bharuch",
+      "current": { "org": "Gujarat Fluorochemicals", "title": "Unit Head, Dahej", "from": 2021 },
+      "career": [
+        { "org": "Navin Fluorine International", "title": "Shift Engineer -> Plant Manager, Surat", "from": 2003, "to": 2021 },
+        { "org": "Gujarat Fluorochemicals", "title": "Unit Head, Dahej", "from": 2021, "to": null }
+      ],
+      "education": [
+        { "institution": "Sardar Vallabhbhai National Institute of Technology", "degree": "B.E. (Chemical)", "from": 1999, "to": 2003 }
+      ],
+      "expertise": ["fluorochemicals", "specialty chemicals", "plant operations", "hf handling", "process safety"],
+      "livedThrough": [
+        { "event": "COVID lockdown: continuous-process restart with skeleton crews", "org": "Navin Fluorine International", "year": 2020, "tags": ["covid", "plant restart"] },
+        { "event": "Commissioning of a new multipurpose fluoro plant at Dahej", "org": "Gujarat Fluorochemicals", "year": 2022, "tags": ["plant commissioning"] }
+      ],
+      "knows": [
+        { "name": "Ritika Malhotra", "org": "Navin Fluorine International", "context": "Friend from fluorochemical industry forums", "strength": 0.4 }
+      ],
+      "relationship": { "how": "Surat plant visit", "since": 2017, "strength": 0.4, "lastContact": "2025-08-02", "channel": "Call" },
+      "source": "synthetic"
+    },
+    {
+      "id": "p29",
+      "name": "Neha Bhalla",
+      "headline": "IIMA batchmate; ex-Domino's India regional ops; now Devyani (KFC)",
+      "city": "Gurugram",
+      "current": { "org": "Devyani International", "title": "VP Operations, KFC", "from": 2021 },
+      "career": [
+        { "org": "Jubilant FoodWorks", "title": "Area Manager -> Regional Operations Head, Domino's (North)", "from": 2012, "to": 2021 },
+        { "org": "Devyani International", "title": "VP Operations, KFC", "from": 2021, "to": null }
+      ],
+      "education": [
+        { "institution": "Shri Ram College of Commerce", "degree": "B.Com (Hons)", "from": 2005, "to": 2008 },
+        { "institution": "IIM Ahmedabad", "degree": "PGP", "from": 2010, "to": 2012 }
+      ],
+      "expertise": ["qsr", "store operations", "delivery logistics", "same-store sales", "franchise operations", "consumer discretionary"],
+      "livedThrough": [
+        { "event": "Same-store sales slump and value-pricing reset", "org": "Jubilant FoodWorks", "year": 2017, "tags": ["sssg slump", "price reset", "guidance reset"] },
+        { "event": "COVID delivery-only pivot", "org": "Jubilant FoodWorks", "year": 2020, "tags": ["covid", "business model shift"] },
+        { "event": "Customer data leak; store-level customer communication", "org": "Jubilant FoodWorks", "year": 2021, "tags": ["data breach"] }
+      ],
+      "knows": [
+        { "name": "Meghna Sood", "org": "Anupam Rasayan India", "context": "IIMA batchmate", "strength": 0.7 },
+        { "name": "Farhan Qureshi", "org": "Kotak Mahindra Bank", "context": "Worked together at Jubilant during the 2021 incident", "strength": 0.45 }
+      ],
+      "relationship": { "how": "IIM Ahmedabad 2010-2012 batchmate", "since": 2010, "strength": 0.8, "lastContact": "2026-09-27", "channel": "WhatsApp" },
+      "source": "synthetic"
+    },
+    {
+      "id": "p30",
+      "name": "Shalini Hegde",
+      "headline": "Microfinance founder; lived through AP crisis, demonetisation, IL&FS",
+      "city": "Bengaluru",
+      "current": { "org": "Kaveri Microfin (fictional)", "title": "Founder & MD", "from": 2009 },
+      "career": [
+        { "org": "ICICI Bank", "title": "Manager, Rural & Microfinance Group", "from": 2001, "to": 2008 },
+        { "org": "Kaveri Microfin (fictional)", "title": "Founder & MD", "from": 2009, "to": null }
+      ],
+      "education": [
+        { "institution": "Institute of Rural Management Anand", "degree": "PGDRM", "from": 1999, "to": 2001 }
+      ],
+      "expertise": ["microfinance", "rural lending", "jlg lending", "collections", "mfi funding", "financial inclusion"],
+      "livedThrough": [
+        { "event": "Andhra Pradesh microfinance ordinance froze sector funding", "org": "Kaveri Microfin (fictional)", "year": 2010, "tags": ["regulatory shock", "funding freeze"] },
+        { "event": "Demonetisation: collections fell sharply in North Karnataka branches", "org": "Kaveri Microfin (fictional)", "year": 2016, "tags": ["demonetisation", "collections stress"] },
+        { "event": "IL&FS default froze NBFC and MFI credit lines", "org": "Kaveri Microfin (fictional)", "year": 2018, "tags": ["liquidity crisis", "funding freeze"] },
+        { "event": "Borrower over-leverage stress and new industry guardrails", "org": "Kaveri Microfin (fictional)", "year": 2024, "tags": ["asset quality stress", "guardrails"] }
+      ],
+      "knows": [
+        { "name": "Basavaraj Hiremath", "org": "Spandana Sphoorty Financial", "context": "Field-level peer in North Karnataka for 15 years", "strength": 0.6 }
+      ],
+      "relationship": { "how": "Microfinance industry conference", "since": 2016, "strength": 0.65, "lastContact": "2026-10-12", "channel": "Call" },
+      "source": "synthetic"
+    },
+    {
+      "id": "p31",
+      "name": "Basavaraj Hiremath",
+      "headline": "Ex-CreditAccess Grameen regional manager (N. Karnataka); now Spandana",
+      "city": "Hubballi",
+      "current": { "org": "Spandana Sphoorty Financial", "title": "Zonal Head, Karnataka & Maharashtra", "from": 2022 },
+      "career": [
+        { "org": "CreditAccess Grameen", "title": "Loan Officer -> Regional Manager, North Karnataka", "from": 2007, "to": 2022, "notes": "Joined when the company was Grameen Koota" },
+        { "org": "Spandana Sphoorty Financial", "title": "Zonal Head, Karnataka & Maharashtra", "from": 2022, "to": null }
+      ],
+      "education": [
+        { "institution": "Karnatak University", "degree": "MBA", "from": 2004, "to": 2006 }
+      ],
+      "expertise": ["microfinance", "rural lending", "collections", "jlg lending", "branch operations"],
+      "livedThrough": [
+        { "event": "Demonetisation disrupted weekly collections", "org": "CreditAccess Grameen", "year": 2016, "tags": ["demonetisation", "collections stress"] },
+        { "event": "Acquisition of Madura Micro Finance and the integration that followed", "org": "CreditAccess Grameen", "year": 2020, "tags": ["acquisition", "merger integration"] },
+        { "event": "Karnataka ordinance against coercive microfinance recovery", "org": "Spandana Sphoorty Financial", "year": 2025, "tags": ["regulatory shock", "collections stress"] }
+      ],
+      "knows": [
+        { "name": "Shalini Hegde", "org": "Kaveri Microfin (fictional)", "context": "Field-level peer in North Karnataka for 15 years", "strength": 0.6 }
+      ],
+      "relationship": { "how": "Introduced by Shalini Hegde", "since": 2019, "strength": 0.4, "lastContact": "2025-09-15", "channel": "WhatsApp" },
+      "source": "synthetic"
+    },
+    {
+      "id": "p32",
+      "name": "Aparna Srinivasan",
+      "headline": "Ex-Tanishq regional business manager; now Kalyan Jewellers",
+      "city": "Bengaluru",
+      "current": { "org": "Kalyan Jewellers India", "title": "Head, Franchise Expansion (South)", "from": 2021 },
+      "career": [
+        { "org": "Titan Company", "title": "Store Manager -> Regional Business Manager, Tanishq (South)", "from": 2007, "to": 2021 },
+        { "org": "Kalyan Jewellers India", "title": "Head, Franchise Expansion (South)", "from": 2021, "to": null }
+      ],
+      "education": [
+        { "institution": "XLRI Jamshedpur", "degree": "PGDM", "from": 2005, "to": 2007 }
+      ],
+      "expertise": ["jewellery", "gold", "retail expansion", "franchise", "consumer discretionary"],
+      "livedThrough": [
+        { "event": "Demonetisation and PAN rules hit jewellery walk-ins", "org": "Titan Company", "year": 2016, "tags": ["demonetisation"] },
+        { "event": "Tanishq ad withdrawn after social-media backlash", "org": "Titan Company", "year": 2020, "tags": ["brand controversy"] },
+        { "event": "Gold import duty cut to 6% in the July 2024 Budget: inventory loss, then demand spike", "org": "Kalyan Jewellers India", "year": 2024, "tags": ["duty change", "gold price"] }
+      ],
+      "knows": [
+        { "name": "Lakshmi Narasimhan", "org": "Titan Company", "context": "Ex-colleague in Tanishq merchandising", "strength": 0.5 }
+      ],
+      "relationship": { "how": "Bengaluru store-walk organised by Titan IR", "since": 2016, "strength": 0.55, "lastContact": "2026-03-21", "channel": "WhatsApp" },
+      "source": "synthetic"
+    },
+    {
+      "id": "p33",
+      "name": "Indranil Basu",
+      "headline": "Ex-ITC Foods snacks category head; now Britannia",
+      "city": "Kolkata",
+      "current": { "org": "Britannia Industries", "title": "Head, Innovation", "from": 2020 },
+      "career": [
+        { "org": "ITC", "title": "Brand Manager -> Category Head, Snacks (Foods division)", "from": 2006, "to": 2020 },
+        { "org": "Britannia Industries", "title": "Head, Innovation", "from": 2020, "to": null }
+      ],
+      "education": [
+        { "institution": "Jadavpur University", "degree": "B.E.", "from": 1998, "to": 2002 },
+        { "institution": "IIM Calcutta", "degree": "PGDM", "from": 2004, "to": 2006 }
+      ],
+      "expertise": ["fmcg", "consumer staples", "packaged foods", "snacks", "biscuits", "innovation"],
+      "livedThrough": [
+        { "event": "Snacks portfolio repositioned against fast-growing regional brands", "org": "ITC", "year": 2016, "tags": ["competitive intensity", "brand relaunch"] },
+        { "event": "Wheat and palm-oil spike forced grammage cuts and price hikes", "org": "Britannia Industries", "year": 2022, "tags": ["commodity inflation", "price hikes"] }
+      ],
+      "knows": [
+        { "name": "Sameer Chaudhari", "org": "Birla Opus Paints", "context": "Kolkata friend; same club", "strength": 0.4 }
+      ],
+      "relationship": { "how": "Kotak consumer conference", "since": 2015, "strength": 0.45, "lastContact": "2025-12-20", "channel": "Email" },
+      "source": "synthetic"
+    },
+    {
+      "id": "p34",
+      "name": "Venkatesh Reddy",
+      "headline": "Ex-L&T metro project director; now Tata Projects urban transit",
+      "city": "Hyderabad",
+      "current": { "org": "Tata Projects", "title": "Business Head, Urban Transit", "from": 2021 },
+      "career": [
+        { "org": "Larsen & Toubro", "title": "Site Engineer -> Project Director, Metro Rail", "from": 1998, "to": 2021, "notes": "Hyderabad Metro PPP and Mumbai underground metro packages" },
+        { "org": "Tata Projects", "title": "Business Head, Urban Transit", "from": 2021, "to": null }
+      ],
+      "education": [
+        { "institution": "Osmania University", "degree": "B.E. (Civil)", "from": 1992, "to": 1996 },
+        { "institution": "IIT Madras", "degree": "M.Tech", "from": 1996, "to": 1998 }
+      ],
+      "expertise": ["infrastructure", "capital goods", "metro rail", "epc", "ppp", "project execution"],
+      "livedThrough": [
+        { "event": "Underground tunnelling packages in dense Mumbai", "org": "Larsen & Toubro", "year": 2018, "tags": ["project execution"] },
+        { "event": "Hyderabad Metro PPP: right-of-way delays, ridership below plan, then COVID shutdown", "org": "Larsen & Toubro", "year": 2020, "tags": ["ppp stress", "execution delay", "covid"] }
+      ],
+      "knows": [
+        { "name": "Srinivas Murthy", "org": "Larsen & Toubro", "context": "Ex-deputy; now in L&T's transportation infrastructure business", "strength": 0.55 }
+      ],
+      "relationship": { "how": "Hyderabad Metro site visit", "since": 2017, "strength": 0.5, "lastContact": "2025-10-25", "channel": "Call" },
+      "source": "synthetic"
+    },
+    {
+      "id": "p35",
+      "name": "Meera Kulkarni",
+      "headline": "Ex-Sun Pharma global quality compliance (USFDA remediation); now Lupin",
+      "city": "Vadodara",
+      "current": { "org": "Lupin", "title": "VP, Regulatory & Compliance", "from": 2023 },
+      "career": [
+        { "org": "Ranbaxy Laboratories", "title": "Manager, Regulatory Affairs", "from": 2005, "to": 2015 },
+        { "org": "Sun Pharmaceutical Industries", "title": "Senior Director, Global Quality Compliance", "from": 2015, "to": 2023, "notes": "Moved over with the Ranbaxy merger; led USFDA remediation workstreams" },
+        { "org": "Lupin", "title": "VP, Regulatory & Compliance", "from": 2023, "to": null }
+      ],
+      "education": [
+        { "institution": "Maharaja Sayajirao University of Baroda", "degree": "B.Pharm", "from": 1999, "to": 2003 },
+        { "institution": "Maharaja Sayajirao University of Baroda", "degree": "M.Pharm", "from": 2003, "to": 2005 }
+      ],
+      "expertise": ["pharma", "specialty generics", "usfda compliance", "regulatory affairs", "cgmp remediation"],
+      "livedThrough": [
+        { "event": "Consent decree and USFDA import alerts", "org": "Ranbaxy Laboratories", "year": 2013, "tags": ["usfda import alert", "consent decree"] },
+        { "event": "USFDA warning letter at Halol and the remediation programme", "org": "Sun Pharmaceutical Industries", "year": 2015, "tags": ["usfda warning letter", "remediation"] },
+        { "event": "USFDA import alert on the Mohali plant", "org": "Sun Pharmaceutical Industries", "year": 2023, "tags": ["usfda import alert"] }
+      ],
+      "knows": [
+        { "name": "Sudha Iyer", "org": "Sun Pharmaceutical Industries", "context": "Former team member; now in Halol site QA", "strength": 0.6 }
+      ],
+      "relationship": { "how": "Regulatory explainer calls since the Halol warning letter", "since": 2016, "strength": 0.6, "lastContact": "2026-05-05", "channel": "Call" },
+      "source": "synthetic"
+    },
+    {
+      "id": "p36",
+      "name": "Abhishek Tripathi",
+      "headline": "IITK batchmate; ex-Reliance Jio RAN planning; now Bharti Airtel",
+      "city": "Mumbai",
+      "current": { "org": "Bharti Airtel", "title": "Director, Network Planning (West)", "from": 2023 },
+      "career": [
+        { "org": "Ericsson", "title": "RF Engineer", "from": 2008, "to": 2011 },
+        { "org": "Reliance Jio", "title": "Manager -> Head, RAN Planning (West)", "from": 2011, "to": 2023 },
+        { "org": "Bharti Airtel", "title": "Director, Network Planning (West)", "from": 2023, "to": null }
+      ],
+      "education": [
+        { "institution": "IIT Kanpur", "degree": "B.Tech (Electrical)", "from": 2004, "to": 2008 }
+      ],
+      "expertise": ["telecom", "5g", "network planning", "tariffs", "spectrum"],
+      "livedThrough": [
+        { "event": "Commercial launch and the free-data price war", "org": "Reliance Jio", "year": 2016, "tags": ["launch", "price war"] },
+        { "event": "Jio Platforms stake sales to global strategic investors", "org": "Reliance Jio", "year": 2020, "tags": ["fundraise", "strategic investor"] },
+        { "event": "Standalone 5G rollout", "org": "Reliance Jio", "year": 2022, "tags": ["network rollout", "capex"] }
+      ],
+      "knows": [
+        { "name": "Kunal Bhattacharya", "org": "Tata Electronics", "context": "IIT Kanpur batchmate", "strength": 0.6 }
+      ],
+      "relationship": { "how": "IIT Kanpur 2004-2008 batchmate", "since": 2004, "strength": 0.7, "lastContact": "2026-06-28", "channel": "WhatsApp" },
+      "source": "synthetic"
+    },
+    {
+      "id": "p37",
+      "name": "Sanjana Pillai",
+      "headline": "Big 4 forensic partner; governance, related-party and fraud reviews",
+      "city": "Mumbai",
+      "current": { "org": "EY India", "title": "Partner, Forensic & Integrity Services", "from": 2016 },
+      "career": [
+        { "org": "Deloitte India", "title": "Senior Manager, Forensic", "from": 2008, "to": 2016 },
+        { "org": "EY India", "title": "Partner, Forensic & Integrity Services", "from": 2016, "to": null }
+      ],
+      "education": [
+        { "institution": "University of Mumbai", "degree": "B.Com", "from": 2001, "to": 2004 },
+        { "institution": "Institute of Chartered Accountants of India", "degree": "CA", "from": 2004, "to": 2008 }
+      ],
+      "expertise": ["forensic accounting", "governance", "related-party transactions", "fraud investigations", "insolvency"],
+      "livedThrough": [
+        { "event": "Lender-commissioned forensic review after promoter fund diversion at a listed mid-cap", "org": "EY India", "year": 2019, "tags": ["forensic audit", "governance", "fraud"] },
+        { "event": "Transaction audits (preferential and fraudulent transactions) in IBC cases", "org": "EY India", "year": 2021, "tags": ["insolvency", "forensic audit"] }
+      ],
+      "knows": [
+        { "name": "Ishita Kapoor", "org": "Cyril Amarchand Mangaldas", "context": "Works with her on insolvency matters", "strength": 0.5 }
+      ],
+      "relationship": { "how": "Governance-diligence engagement for the fund", "since": 2020, "strength": 0.5, "lastContact": "2026-01-08", "channel": "Email" },
+      "source": "synthetic"
+    },
+    {
+      "id": "p38",
+      "name": "Dnyaneshwar Shinde",
+      "headline": "Retired MPCB regional officer (Aurangabad); pollution-board advisor",
+      "city": "Chhatrapati Sambhajinagar",
+      "current": { "org": "Sahyadri Legal (fictional)", "title": "Technical Advisor, Environmental Compliance", "from": 2023 },
+      "career": [
+        { "org": "Maharashtra Pollution Control Board", "title": "Field Officer -> Regional Officer (Aurangabad)", "from": 1990, "to": 2022 },
+        { "org": "Sahyadri Legal (fictional)", "title": "Technical Advisor, Environmental Compliance", "from": 2023, "to": null }
+      ],
+      "education": [
+        { "institution": "Dr. Babasaheb Ambedkar Marathwada University", "degree": "M.Sc. (Environmental Science)", "from": 1986, "to": 1988 }
+      ],
+      "expertise": ["environmental compliance", "pollution control boards", "effluent treatment", "consent to operate", "aurangabad midc"],
+      "livedThrough": [
+        { "event": "Issued and reviewed closure directions to MIDC units for effluent and emission violations", "org": "Maharashtra Pollution Control Board", "year": 2019, "tags": ["regulatory shutdown", "pollution board", "environmental compliance"] }
+      ],
+      "knows": [
+        { "name": "Vaishali Deshmukh", "org": "Sahyadri Legal (fictional)", "context": "Advises her practice on pollution-board matters", "strength": 0.75 },
+        { "name": "Shrikant Patil", "org": "Godavari Forgings (fictional)", "context": "Knew him for years as a Waluj plant head", "strength": 0.5 }
+      ],
+      "relationship": { "how": "Introduced by Vaishali Deshmukh", "since": 2024, "strength": 0.3, "lastContact": "2025-11-02", "channel": "In person" },
+      "source": "synthetic"
+    }
+  ]
+}

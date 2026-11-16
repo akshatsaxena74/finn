@@ -1,0 +1,82 @@
+[
+  {
+    "month": "Aug 2025",
+    "metric": "capex",
+    "target": { "low": 1000, "high": 1000, "unit": "cr" },
+    "horizon": "FY26",
+    "quote": "I think last year, somewhere around Rs.1,300- 1,400 of capex, this year, Rs.1,000 crore and next year, the number will drop dramatically.",
+    "gist": "FY26 capex ~₹1,000 cr, dropping sharply in FY27",
+    "speaker": "Suyog Kotecha",
+    "page": 9
+  },
+  {
+    "month": "Aug 2025",
+    "metric": "ebitda_abs",
+    "target": { "low": 1800, "high": 1800, "unit": "cr" },
+    "horizon": "FY28",
+    "quote": "the growth levers are very clear and those growth levers are getting implemented, which is the ultimate aim of achieving that Rs.1,800-odd crore.",
+    "gist": "Three-year (FY28) EBITDA target ~₹1,800 cr reaffirmed",
+    "speaker": "Suyog Kotecha",
+    "page": 12
+  },
+  {
+    "month": "Feb 2026",
+    "metric": "capex",
+    "target": { "low": 1600, "high": 1800, "unit": "cr" },
+    "horizon": null,
+    "quote": "The total CAPEX on Zone 4 would be in the range of INR1,600 crore to INR1,800 crore.",
+    "gist": "Zone 4 total project capex ₹1,600–1,800 cr",
+    "speaker": "Suyog Kotecha",
+    "page": 10
+  },
+  {
+    "month": "May 2026",
+    "metric": "capex",
+    "target": { "low": 750, "high": 800, "unit": "cr" },
+    "horizon": "FY27",
+    "quote": "FY27 capex is what we are saying will be in the range of INR750 crore to INR800 crore.",
+    "gist": "FY27 capex ₹750–800 cr",
+    "speaker": "Suyog Kotecha",
+    "page": 8
+  },
+  {
+    "month": "May 2026",
+    "metric": "capex",
+    "target": { "low": 200, "high": 250, "unit": "cr" },
+    "horizon": null,
+    "quote": "part of it will also go to the new long-term contract, which we signed, right, where we announced total capex of INR200 crore to INR250 crore.",
+    "gist": "New long-term contract: total capex ₹200–250 cr",
+    "speaker": "Suyog Kotecha",
+    "page": 8
+  },
+  {
+    "month": "Aug 2026",
+    "metric": "ebitda_abs",
+    "target": { "low": 1800, "high": 1800, "unit": "cr" },
+    "horizon": "FY28",
+    "quote": "So INR1,800 crore guidance included the EBITDA, especially for Augene JV because we expected it to start contributing by that time frame.",
+    "gist": "₹1,800 cr EBITDA guidance cited; includes Augene JV EBITDA",
+    "speaker": "Suyog Kotecha",
+    "page": 13
+  },
+  {
+    "month": "Nov 2026",
+    "metric": "other",
+    "target": { "low": 250, "high": 350, "unit": "cr" },
+    "horizon": null,
+    "quote": "in the first 18 months, our target is to achieve INR250 crore to INR350-odd crore of bottom line from Zone IV",
+    "gist": "Zone IV bottom line ₹250–350 cr in first 18 months",
+    "speaker": "Suyog Kotecha",
+    "page": 8
+  },
+  {
+    "month": "Nov 2026",
+    "metric": "other",
+    "target": { "low": 30, "high": 40, "unit": "%" },
+    "horizon": null,
+    "quote": "We expect the energy to settle somewhere between 30% to 40% kind of a range of our overall portfolio",
+    "gist": "Energy to settle at 30–40% of portfolio",
+    "speaker": "Suyog Kotecha",
+    "page": 20
+  }
+]
