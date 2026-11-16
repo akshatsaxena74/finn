@@ -2,6 +2,8 @@
 
 **What matters in your portfolio today, whether management keeps its word, and who in your own network can explain it, without your network ever leaving your phone.**
 
+**Live demo:** [finn-gold.vercel.app](https://finn-gold.vercel.app). Open it on a phone; the live deployment has Gemini enabled.
+
 A mobile-first investing agent built for the ENAM Founding AI Engineer Build Challenge. It is a PWA on Vercel: open it on a phone. It runs end to end with **no API key**, and a Gemini key upgrades it (see [Adding the AI key](#adding-the-ai-key-later)).
 
 **New device?** Follow [Run it on a new device](#run-it-on-a-new-device-step-by-step): install Node, then `npm install` and `npm run dev`.
